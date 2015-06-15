@@ -39,26 +39,11 @@
 #                           Forum (IDPF). Files have the extension .epub.
 #                           http://en.wikipedia.org/wiki/EPUB
 #
-# firewall/                 In computing, a firewall is a software or
-#                           hardware-based network security system that
-#                           controls the incoming and outgoing network traffic
-#                           by analyzing the data packets and determining
-#                           whether they should be allowed through or not,
-#                           based on applied rule set.
-#                           http://en.wikipedia.org/wiki/Firewall_(computing)
-#
 # h.264/                    H.264/MPEG-4 Part 10 or AVC (Advanced Video Coding)
 #                           is a video compression format, and is currently one
 #                           of the most commonly used formats for the recording,
 #                           compression, and distribution of video content.
 #                           http://en.wikipedia.org/wiki/H.264/MPEG-4_AVC
-#
-# iptables/                 iptables is a user space application program that
-#                           allows a system administrator to configure the
-#                           tables provided by the Linux kernel firewall
-#                           (implemented as different Netfilter modules) and
-#                           the chains and rules it stores.
-#                           http://en.wikipedia.org/wiki/Iptables
 #
 # its/                      UAA ITS Webapps repos
 #
@@ -87,10 +72,6 @@
 # project-management/       Project Management
 # project-spec/             Project Specification
 #
-# remote-access/            Remote access using ssh, ssh -X, rdesktop,
-#                           vnc, and vpn.
-#
-# ssh-tunnel/               SSH tunnel - working on rdp over ssh tunnel
 # storage-analysis/         Storage Analysis
 #
 # traffic-control/          tc (traffic control) is a Linux command (part of
