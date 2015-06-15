@@ -5,5 +5,59 @@ Copyright (C) 2015 by Raymond E. Marcil <marcilr@gmail.com>
 
 Filelist
 ========
+all-grain-brewing/
+  All Grain Brewing
+
+backup/
+  Script to take datestamped backups.
+
+chroot/
+  Documentation of chroot environments for dhcp, dns,
+  and apache.
+
+create-searchable-pdfs/
+  Create Searchable PDFs
+
+cvs-branches/
+  Notes on Branches in CVS
+  by James A. Crippen
+  jcrippen@spectrumwireless.com
+
+latex/
+  LaTeX is a high-quality typesetting system; it
+  includes features designed for the production of
+  technical and scientific documentation. LaTeX is
+  the de facto standard for the communication and
+  publication of scientific documents.
+  http://www.latex-project.org/
+
+lions/
+  A Commentary On the Sixth Edition UNIX Operation
+  System, by J. Lions, Fine LaTeX document.
+  Department of Computer Science
+  The University of New South Wales
+  http://www.lemis.com/grog/Documentation/Lions/
+
 manifestos/
   Manifestos
+
+net/
+  Directory for network related documents.
+
+php-based-website/
+  PHP-based website design & implementation
+
+project-spec/
+  Project Specification
+
+storage-analysis/
+  Storage Analysis
+
+webdav-exchange/
+  WebDAV Access to Exchange
+  Whilst this was a good idea, working for UAA ITS
+  WebApps in 2007, never did get it operational.
+
+wrt54gl/
+  Configuration of Cisco-Linksys WRT54GL wireless
+  router.

@@ -29,9 +29,6 @@
 #                           publication of scientific documents.
 #                           http://www.latex-project.org/
 #
-# lightweight-markup-language/   Lightweight markup language
-#                                http://en.wikipedia.org/wiki/Lightweight_markup_language
-#
 # lions/                    A Commentary On the Sixth Edition UNIX Operation
 #                           System, by J. Lions, Fine LaTeX document.
 #                           Department of Computer Science
