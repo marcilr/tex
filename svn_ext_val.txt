@@ -125,7 +125,7 @@
 #../../docs/latex/latex                                     ./latex
 #../../docs/lightweight-markup-language/lightweight-markup-language   ./lightweight-markup-language
 #../../docs/lions/lions                                     ./lions
-#../../docs/manifestos/manifestos                           ./manifestos
+../../tex/manifestos/manifestos                             ./manifestos
 ../../tex/net/net                                           ./net
 #../../docs/php-based-website/php-based-website             ./php-based-website
 #../../docs/project-java/project-java                       ./project-java
