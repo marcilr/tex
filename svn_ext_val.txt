@@ -108,7 +108,7 @@
 #                           router.
 #
 ../../tex/all-grain-brewing/all-grain-brewing              ./all-grain-brewing
-../../docs/backup/backup                                   ./backup
+../../tex/backup/backup                                     ./backup
 #../../docs/chroot/chroot                                   ./chroot
 #../../docs/contacts/contacts                               ./contacts
 #../../docs/create-searchable-pdfs/create-searchable-pdfs   ./create-searchable-pdfs
