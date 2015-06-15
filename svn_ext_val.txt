@@ -16,36 +16,11 @@
 # chroot/                   Documentation of chroot environments for dhcp, dns,
 #                           and apache.
 #
-# contacts/                 Friends and business contacts.
 # create-searchable-pdfs/   Create Searchable PDFs
-# css/                      css creation and documentation.
 #
 # cvs-branches/             Notes on Branches in CVS
 #                           by James A. Crippen
 #                           jcrippen@spectrumwireless.com
-#
-# docs/                     Prior documentation repo.
-#                           FIXME: Need to nbe broken up into individual repos.
-#
-# docs-PRIOR/               Prior documentation repo.
-# document-management       Document Management
-# dogs/                     Dogs
-#
-# ePub/                     EPUB (short for electronic publication;
-#                           alternatively capitalized as ePub, ePUB, EPub, or
-#                           epub, with "EPUB" preferred by the vendor) is a
-#                           free and open e-book standard by the International
-#                           Digital Publishing
-#                           Forum (IDPF). Files have the extension .epub.
-#                           http://en.wikipedia.org/wiki/EPUB
-#
-# h.264/                    H.264/MPEG-4 Part 10 or AVC (Advanced Video Coding)
-#                           is a video compression format, and is currently one
-#                           of the most commonly used formats for the recording,
-#                           compression, and distribution of video content.
-#                           http://en.wikipedia.org/wiki/H.264/MPEG-4_AVC
-#
-# its/                      UAA ITS Webapps repos
 #
 # latex/                    LaTeX is a high-quality typesetting system; it
 #                           includes features designed for the production of
@@ -68,54 +43,26 @@
 # net/                      Directory for network related documents.
 #
 # php-based-website/        PHP-based website design & implementation
-# project-java/
-# project-management/       Project Management
 # project-spec/             Project Specification
-#
 # storage-analysis/         Storage Analysis
 #
-# traffic-control/          tc (traffic control) is a Linux command (part of
-#                           the iproute2 package[1]) to configure and control
-#                           the Linux kernel's Network scheduler to show and
-#                           manipulate Network traffic control settings.[2]
-#                           http://en.wikipedia.org/wiki/Tc_%28Linux%29 
-#
-# update/
 # webdav-exchange/          WebDAV Access to Exchange
 #                           Whilst this was a good idea, working for UAA ITS
 #                           WebApps in 2007, never did get it operational.
-# workstation/
 # wrt54gl/                  Configuration of Cisco-Linksys WRT54GL wireless
 #                           router.
 #
-../../tex/all-grain-brewing/all-grain-brewing               ./all-grain-brewing
-../../tex/backup/backup                                     ./backup
-../../tex/chroot/chroot                                     ./chroot
-#../../docs/contacts/contacts                               ./contacts
-#../../docs/create-searchable-pdfs/create-searchable-pdfs   ./create-searchable-pdfs
-#../../docs/css/css                                         ./css
-#../../docs/cvs-branches/cvs-branches                       ./cvs-branches
-#../../docs/docs-PRIOR/docs-PRIOR                           ./docs-PRIOR
-#../../docs/document-management/document-management         ./document-management
-#../../docs/dogs/dogs                                       ./dogs
-#../../docs/ePub/ePub                                       ./ePub
-#../../docs/firewall/firewall                               ./firewall
-#../../docs/h.264/h.264                                     ./h.264
-#../../docs/iptables/iptables                               ./iptables
-#../../docs/its/its                                         ./its
-#../../docs/latex/latex                                     ./latex
-#../../docs/lightweight-markup-language/lightweight-markup-language   ./lightweight-markup-language
-#../../docs/lions/lions                                     ./lions
-../../tex/manifestos/manifestos                             ./manifestos
-../../tex/net/net                                           ./net
-#../../docs/php-based-website/php-based-website             ./php-based-website
-#../../docs/project-java/project-java                       ./project-java
-#../../docs/project-management/project-management           ./project-management
-#../../docs/project-spec/project-spec                       ./project-spec
-#../../docs/remote-access/remote-access                     ./remote-access
-#../../docs/ssh-tunnel/ssh-tunnel                           ./ssh-tunnel
-#../../docs/storage-analysis/storage-analysis               ./storage-analysis
-#../../docs/traffic-control/traffic-control                 ./traffic-control
-#../../docs/webdav-exchange/webdav-exchange                 ./webdav-exchange
-#../../docs/workstation/workstation                         ./workstation
-#../../docs/wrt54gl/wrt54gl                                 ./wrt54gl
+../../tex/all-grain-brewing/all-grain-brewing             ./all-grain-brewing
+../../tex/backup/backup                                   ./backup
+../../tex/chroot/chroot                                   ./chroot
+../../tex/create-searchable-pdfs/create-searchable-pdfs   ./create-searchable-pdfs
+../../tex/cvs-branches/cvs-branches                       ./cvs-branches
+../../tex/latex/latex                                     ./latex
+../../tex/lions/lions                                     ./lions
+../../tex/manifestos/manifestos                           ./manifestos
+../../tex/net/net                                         ./net
+../../tex/php-based-website/php-based-website             ./php-based-website
+../../tex/project-spec/project-spec                       ./project-spec
+../../tex/storage-analysis/storage-analysis               ./storage-analysis
+../../tex/webdav-exchange/webdav-exchange                 ./webdav-exchange
+../../tex/wrt54gl/wrt54gl                                 ./wrt54gl
