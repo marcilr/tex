@@ -107,9 +107,9 @@
 # wrt54gl/                  Configuration of Cisco-Linksys WRT54GL wireless
 #                           router.
 #
-../../tex/all-grain-brewing/all-grain-brewing              ./all-grain-brewing
+../../tex/all-grain-brewing/all-grain-brewing               ./all-grain-brewing
 ../../tex/backup/backup                                     ./backup
-#../../docs/chroot/chroot                                   ./chroot
+../../tex/chroot/chroot                                     ./chroot
 #../../docs/contacts/contacts                               ./contacts
 #../../docs/create-searchable-pdfs/create-searchable-pdfs   ./create-searchable-pdfs
 #../../docs/css/css                                         ./css
