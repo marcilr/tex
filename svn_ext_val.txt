@@ -42,6 +42,7 @@
 # php-based-website/        PHP-based website design & implementation
 # project-spec/             Project Specification
 # storage-analysis/         Storage Analysis
+# straight-razor/           Straight razor shave
 #
 # webdav-exchange/          WebDAV Access to Exchange
 #                           Whilst this was a good idea, working for UAA ITS
@@ -61,5 +62,6 @@
 ../../tex/php-based-website/php-based-website             ./php-based-website
 ../../tex/project-spec/project-spec                       ./project-spec
 ../../tex/storage-analysis/storage-analysis               ./storage-analysis
+../../tex/straight-razor/straight-razor                   ./straight-razor
 ../../tex/webdav-exchange/webdav-exchange                 ./webdav-exchange
 ../../tex/wrt54gl/wrt54gl                                 ./wrt54gl
