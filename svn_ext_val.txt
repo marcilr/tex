@@ -22,6 +22,12 @@
 #                           by James A. Crippen
 #                           jcrippen@spectrumwireless.com
 #
+# git/                      Git is a free and open source distributed version
+#                           control system designed to handle everything from
+#                           small to very large projects with speed and
+#                           efficiency.
+#                           https://git-scm.com/
+#
 # latex/                    LaTeX is a high-quality typesetting system; it
 #                           includes features designed for the production of
 #                           technical and scientific documentation. LaTeX is
@@ -55,6 +61,7 @@
 ../../tex/chroot/chroot                                   ./chroot
 ../../tex/create-searchable-pdfs/create-searchable-pdfs   ./create-searchable-pdfs
 ../../tex/cvs-branches/cvs-branches                       ./cvs-branches
+../../tex/git/git                                         ./git
 ../../tex/latex/latex                                     ./latex
 ../../tex/lions/lions                                     ./lions
 ../../tex/manifestos/manifestos                           ./manifestos
