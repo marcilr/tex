@@ -10,8 +10,9 @@
 # List of repo hierarchical directories to checkout under tex/
 #
 # all-grain-brewing/        All Grain Brewing
-#
 # backup/                   Script to take datestamped backups.
+# bind/                     Bind name server
+#                           https://wiki.archlinux.org/index.php/BIND#BIND_Resources
 #
 # chroot/                   Documentation of chroot environments for dhcp, dns,
 #                           and apache.
@@ -58,6 +59,7 @@
 #
 ../../tex/all-grain-brewing/all-grain-brewing             ./all-grain-brewing
 ../../tex/backup/backup                                   ./backup
+../../tex/bind/bind                                       ./bind
 ../../tex/chroot/chroot                                   ./chroot
 ../../tex/create-searchable-pdfs/create-searchable-pdfs   ./create-searchable-pdfs
 ../../tex/cvs-branches/cvs-branches                       ./cvs-branches
