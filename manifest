@@ -18,3 +18,6 @@ ssh://htpc/data/git/tex/all-grain-brewing   all-grain-brewing
 
 # backup - Script to take datestamped backups.
 ssh://htpc/data/git/tex/backup              backup
+
+# Bind name server
+ssh://htpc/data/git/tex/bind                bind
