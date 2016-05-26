@@ -19,5 +19,8 @@ ssh://htpc/data/git/tex/all-grain-brewing   all-grain-brewing
 # backup - Script to take datestamped backups.
 ssh://htpc/data/git/tex/backup              backup
 
+#
 # Bind name server
+# https://wiki.archlinux.org/index.php/BIND#BIND_Resources
+#
 ssh://htpc/data/git/tex/bind                bind
