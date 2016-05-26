@@ -24,3 +24,9 @@ ssh://htpc/data/git/tex/backup              backup
 # https://wiki.archlinux.org/index.php/BIND#BIND_Resources
 #
 ssh://htpc/data/git/tex/bind                bind
+
+#
+# chroot/ - Documentation of chroot environments for dhcp, dns,
+# and apache.
+#
+ssh://htpc/data/git/tex/chroot              chroot
