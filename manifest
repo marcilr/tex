@@ -33,3 +33,10 @@ ssh://htpc/data/git/tex/chroot                   chroot
 
 # Create Searchable PDFs
 ssh://htpc/data/git/tex/create-searchable-pdfs   create-searchable-pdfs
+
+#
+# Notes on Branches in CVS
+# by James A. Crippen
+# jcrippen@spectrumwireless.com
+#
+ssh://htpc/data/git/tex/cvs-branches             cvs-branches
