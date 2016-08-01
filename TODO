@@ -3,5 +3,10 @@ Created Thu May 26 16:03:16 AKDT 2016
 Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
 
 
++++ Mon Aug  1 13:37:00 AKDT 2016 - Documents to create:
+grub
+partitions
+vpn
+
 +++ Thu May 26 16:03:16 AKDT 2016 - Need to simplify chroot/ repo
 from old tags and trunk repo.
