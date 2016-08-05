@@ -50,4 +50,4 @@ github.com:marcilr/git-tex-dev                   dev
 # Languages
 #
 github.com:marcilr/git-tex-dev-lang              dev/lang
-github.com:marcilr/git-tex-dev-lang/go           dev/lang/go
+github.com:marcilr/git-tex-dev-lang-go           dev/lang/go
