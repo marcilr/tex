@@ -47,6 +47,11 @@ ssh://htpc/data/git/tex/cvs-branches             cvs-branches
 github.com:marcilr/git-tex-dev                   dev
 
 #
+# GCI Network Services, OSS
+#
+ssh://htpc/data/git/tex/gci                      gci
+
+#
 # Languages
 #
 github.com:marcilr/git-tex-dev-lang              dev/lang
