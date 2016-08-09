@@ -51,6 +51,8 @@ github.com:marcilr/git-tex-dev                   dev
 #
 ssh://htpc/data/git/tex/gci                      gci
 
+ssh://htpc/data/git/tex/gci/filexfer             gci/filexfer
+
 #
 # Languages
 #
