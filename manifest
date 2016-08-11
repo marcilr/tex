@@ -58,6 +58,7 @@ ssh://htpc/data/git/tex/gci/filexfer/appendix/source            gci/filexfer/app
 ssh://htpc/data/git/tex/gci/filexfer/design                     gci/filexfer/design
 ssh://htpc/data/git/tex/gci/filexfer/implementation             gci/filexfer/implementation
 ssh://htpc/data/git/tex/gci/filexfer/implementation/logging     gci/filexfer/implementation/logging
+ssh://htpc/data/git/tex/gci/filexfer/implementation/relevance   gci/filexfer/implementation/relevance
 ssh://htpc/data/git/tex/gci/filexfer/implementation/scripts     gci/filexfer/implementation/scripts
 ssh://htpc/data/git/tex/gci/filexfer/introduction               gci/filexfer/introduction
 ssh://htpc/data/git/tex/gci/filexfer/operation                  gci/filexfer/operation
