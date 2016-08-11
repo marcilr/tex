@@ -14,57 +14,58 @@
 #
 
 # All Grain Brewing
-ssh://htpc/data/git/tex/all-grain-brewing                     all-grain-brewing
+ssh://htpc/data/git/tex/all-grain-brewing                       all-grain-brewing
 
 # backup - Script to take datestamped backups.
-ssh://htpc/data/git/tex/backup                                backup
+ssh://htpc/data/git/tex/backup                                  backup
 
 #
 # Bind name server
 # https://wiki.archlinux.org/index.php/BIND#BIND_Resources
 #
-ssh://htpc/data/git/tex/bind                                  bind
+ssh://htpc/data/git/tex/bind                                    bind
 
 #
 # chroot/ - Documentation of chroot environments for dhcp, dns,
 # and apache.
 #
-ssh://htpc/data/git/tex/chroot                                chroot
+ssh://htpc/data/git/tex/chroot                                  chroot
 
 # Create Searchable PDFs
-ssh://htpc/data/git/tex/create-searchable-pdfs                create-searchable-pdfs
+ssh://htpc/data/git/tex/create-searchable-pdfs                  create-searchable-pdfs
 
 #
 # Notes on Branches in CVS
 # by James A. Crippen
 # jcrippen@spectrumwireless.com
 #
-ssh://htpc/data/git/tex/cvs-branches                          cvs-branches
+ssh://htpc/data/git/tex/cvs-branches                            cvs-branches
 
 #
 # Development
 #
-github.com:marcilr/git-tex-dev                                dev
+github.com:marcilr/git-tex-dev                                  dev
 
 #
 # GCI Network Services, OSS
 #
-ssh://htpc/data/git/tex/gci                                   gci
+ssh://htpc/data/git/tex/gci                                     gci
 
 # FileXfer application
-ssh://htpc/data/git/tex/gci/filexfer                          gci/filexfer
-ssh://htpc/data/git/tex/gci/filexfer/appendix                 gci/filexfer/appendix
-ssh://htpc/data/git/tex/gci/filexfer/appendix/source          gci/filexfer/appendix/source
-ssh://htpc/data/git/tex/gci/filexfer/design                   gci/filexfer/design
-ssh://htpc/data/git/tex/gci/filexfer/implementation           gci/filexfer/implementation
-ssh://htpc/data/git/tex/gci/filexfer/implementation/logging   gci/filexfer/implementation/logging
-ssh://htpc/data/git/tex/gci/filexfer/implementation/scripts   gci/filexfer/implementation/scripts
-ssh://htpc/data/git/tex/gci/filexfer/introduction             gci/filexfer/introduction
-ssh://htpc/data/git/tex/gci/filexfer/operation                gci/filexfer/operation
-ssh://htpc/data/git/tex/gci/filexfer/schema                   gci/filexfer/schema
+ssh://htpc/data/git/tex/gci/filexfer                            gci/filexfer
+ssh://htpc/data/git/tex/gci/filexfer/appendix                   gci/filexfer/appendix
+ssh://htpc/data/git/tex/gci/filexfer/appendix/source            gci/filexfer/appendix/source
+ssh://htpc/data/git/tex/gci/filexfer/design                     gci/filexfer/design
+ssh://htpc/data/git/tex/gci/filexfer/implementation             gci/filexfer/implementation
+ssh://htpc/data/git/tex/gci/filexfer/implementation/logging     gci/filexfer/implementation/logging
+ssh://htpc/data/git/tex/gci/filexfer/implementation/scripts     gci/filexfer/implementation/scripts
+ssh://htpc/data/git/tex/gci/filexfer/introduction               gci/filexfer/introduction
+ssh://htpc/data/git/tex/gci/filexfer/operation                  gci/filexfer/operation
+ssh://htpc/data/git/tex/gci/filexfer/operation/job-monitoring   gci/filexfer/operation/job-monitoring
+ssh://htpc/data/git/tex/gci/filexfer/schema                     gci/filexfer/schema
 
 #
 # Languages
 #
-github.com:marcilr/git-tex-dev-lang                           dev/lang
-github.com:marcilr/git-tex-dev-lang-go                        dev/lang/go
+github.com:marcilr/git-tex-dev-lang                             dev/lang
+github.com:marcilr/git-tex-dev-lang-go                          dev/lang/go
