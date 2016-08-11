@@ -64,6 +64,7 @@ ssh://htpc/data/git/tex/gci/filexfer/operation                  gci/filexfer/ope
 ssh://htpc/data/git/tex/gci/filexfer/operation/job-monitoring   gci/filexfer/operation/job-monitoring
 ssh://htpc/data/git/tex/gci/filexfer/operation/job-scheduling   gci/filexfer/operation/job-scheduling
 ssh://htpc/data/git/tex/gci/filexfer/operation/dataloader       gci/filexfer/operation/dataloader
+ssh://htpc/data/git/tex/gci/filexfer/operation/relevance        gci/filexfer/operation/relevance
 ssh://htpc/data/git/tex/gci/filexfer/schema                     gci/filexfer/schema
 
 #
