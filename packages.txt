@@ -1,0 +1,15 @@
+packages.txt
+Created Tue Aug 16 08:36:24 AKDT 2016
+Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+LateX packages
+
+
+Packages
+========
+texlive-full - TeX Live: metapackage pulling in all components of TeX Live
+texlive-base - TeX Live: Essential programs and files
+texlive - TeX Live: A decent selection of the TeX Live packages
+
+NOTE: texlive-full is the package to install for debian
