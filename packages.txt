@@ -6,8 +6,25 @@ Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
 LateX packages
 
 
+For use of git/proj/svn-to-git-ORIG/test-svn-to-git-home script
+got subversion to git conversion need to install packages:
+
+o texlive-full
+o git-svn
+
+
 Packages
 ========
+git-svn - fast, scalable, distributed revision control system
+          (svn interoperability)
+
+  Always for use of git/proj/svn-to-git-ORIG/test-svn-to-git-home
+  use for subversion to git conversion using:
+
+  debug() main: CMD=/usr/bin/git svn clone \
+    svn+ssh://home/data/svnroot/tex/git/git \
+    --authors-file=authors.txt --no-metadata git
+
 texlive-full - TeX Live: metapackage pulling in all components of TeX Live
 texlive-base - TeX Live: Essential programs and files
 texlive - TeX Live: A decent selection of the TeX Live packages
