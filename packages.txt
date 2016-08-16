@@ -12,4 +12,6 @@ texlive-full - TeX Live: metapackage pulling in all components of TeX Live
 texlive-base - TeX Live: Essential programs and files
 texlive - TeX Live: A decent selection of the TeX Live packages
 
+therion - Cave surveying - 2D and 3D drawing software
+
 NOTE: texlive-full is the package to install for debian
