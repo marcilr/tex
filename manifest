@@ -44,7 +44,7 @@ ssh://htpc/data/git/tex/cvs-branches                            cvs-branches
 #
 # Development
 #
-github.com:marcilr/git-tex-dev                                  dev
+github.com:marcilr/tex-dev                                  dev
 
 #
 # GCI Network Services, OSS
@@ -95,5 +95,5 @@ ssh://htpc/data/git/tex/git/tex/repositories/ssh                 git/tex/reposit
 #
 # Languages
 #
-github.com:marcilr/git-tex-dev-lang                             dev/lang
-github.com:marcilr/git-tex-dev-lang-go                          dev/lang/go
+github.com:marcilr/tex-dev-lang                             dev/lang
+github.com:marcilr/tex-dev-lang-go                          dev/lang/go
