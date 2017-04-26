@@ -74,22 +74,26 @@ ssh://htpc/data/git/tex/gci/filexfer/schema                       gci/filexfer/s
 #
 # git revision control
 #
-ssh://htpc/data/git/tex/git                                      git
-ssh://htpc/data/git/tex/git/tex                                  git/tex
-ssh://htpc/data/git/tex/git/tex/abbreviations                    git/tex/abbreviations
-ssh://htpc/data/git/tex/git/tex/appendix                         git/tex/appendix
-ssh://htpc/data/git/tex/git/tex/introduction                     git/tex/introduction
-ssh://htpc/data/git/tex/git/tex/remotes                          git/tex/remotes
-ssh://htpc/data/git/tex/git/tex/remotes/cloud                    git/tex/remotes/cloud
-ssh://htpc/data/git/tex/git/tex/remotes/cloud/github             git/tex/remotes/cloud/github
-ssh://htpc/data/git/tex/git/tex/remotes/commands                 git/tex/remotes/commands
-ssh://htpc/data/git/tex/git/tex/repo                             git/tex/repo
-ssh://htpc/data/git/tex/git/tex/repo/commands                    git/tex/repo/commands
-ssh://htpc/data/git/tex/git/tex/repo/configuration               git/tex/repo/configuration
-ssh://htpc/data/git/tex/git/tex/repositories                     git/tex/repositories
-ssh://htpc/data/git/tex/git/tex/repositories/branching-tagging   git/tex/repositories/branching-tagging
-ssh://htpc/data/git/tex/git/tex/repositories/commands            git/tex/repositories/commands
-ssh://htpc/data/git/tex/git/tex/repositories/ssh                 git/tex/repositories/ssh
+# I think the old subversion repo for this may exist
+# on htpc at:
+#   /usr/local/videos/backups/data/20150726/svnroot/tex/git/tex/tex/
+#
+#ssh://htpc/data/git/tex/git                                      git
+#ssh://htpc/data/git/tex/git/tex                                  git/tex
+#ssh://htpc/data/git/tex/git/tex/abbreviations                    git/tex/abbreviations
+#ssh://htpc/data/git/tex/git/tex/appendix                         git/tex/appendix
+#ssh://htpc/data/git/tex/git/tex/introduction                     git/tex/introduction
+#ssh://htpc/data/git/tex/git/tex/remotes                          git/tex/remotes
+#ssh://htpc/data/git/tex/git/tex/remotes/cloud                    git/tex/remotes/cloud
+#ssh://htpc/data/git/tex/git/tex/remotes/cloud/github             git/tex/remotes/cloud/github
+#ssh://htpc/data/git/tex/git/tex/remotes/commands                 git/tex/remotes/commands
+#ssh://htpc/data/git/tex/git/tex/repo                             git/tex/repo
+#ssh://htpc/data/git/tex/git/tex/repo/commands                    git/tex/repo/commands
+#ssh://htpc/data/git/tex/git/tex/repo/configuration               git/tex/repo/configuration
+#ssh://htpc/data/git/tex/git/tex/repositories                     git/tex/repositories
+#ssh://htpc/data/git/tex/git/tex/repositories/branching-tagging   git/tex/repositories/branching-tagging
+#ssh://htpc/data/git/tex/git/tex/repositories/commands            git/tex/repositories/commands
+#ssh://htpc/data/git/tex/git/tex/repositories/ssh                 git/tex/repositories/ssh
 
 
 #
