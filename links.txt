@@ -1,0 +1,12 @@
+links.txt
+Created Sat Jun  3 20:30:55 AKDT 2017
+Copyright (C) 2017 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+TeX related links
+
+
+Links
+=====
+TeX Live 2017 released
+https://www.tug.org/texlive/
