@@ -31,6 +31,9 @@ latex/
   publication of scientific documents.
   http://www.latex-project.org/
 
+links.txt
+  TeX related links
+
 lions/
   A Commentary On the Sixth Edition UNIX Operation
   System, by J. Lions, Fine LaTeX document.
