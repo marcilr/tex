@@ -8,5 +8,9 @@ TeX related links
 
 Links
 =====
+GrindEQ
+LaTex to docx
+http://www.grindeq.com/
+
 TeX Live 2017 released
 https://www.tug.org/texlive/
