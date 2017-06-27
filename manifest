@@ -51,26 +51,6 @@ github.com:marcilr/tex-dev   dev
 #
 ssh://htpc/data/git/tex/gci   gci
 
-# FileXfer application
-ssh://htpc/data/git/tex/gci/filexfer                              gci/filexfer
-ssh://htpc/data/git/tex/gci/filexfer/appendix                     gci/filexfer/appendix
-ssh://htpc/data/git/tex/gci/filexfer/appendix/source              gci/filexfer/appendix/source
-ssh://htpc/data/git/tex/gci/filexfer/design                       gci/filexfer/design
-ssh://htpc/data/git/tex/gci/filexfer/docs                         gci/filexfer/docs
-ssh://htpc/data/git/tex/gci/filexfer/implementation               gci/filexfer/implementation
-ssh://htpc/data/git/tex/gci/filexfer/implementation/logging       gci/filexfer/implementation/logging
-ssh://htpc/data/git/tex/gci/filexfer/implementation/relevance     gci/filexfer/implementation/relevance
-ssh://htpc/data/git/tex/gci/filexfer/implementation/scripts       gci/filexfer/implementation/scripts
-ssh://htpc/data/git/tex/gci/filexfer/implementation/userscripts   gci/filexfer/implementation/userscripts
-ssh://htpc/data/git/tex/gci/filexfer/introduction                 gci/filexfer/introduction
-ssh://htpc/data/git/tex/gci/filexfer/operation                    gci/filexfer/operation
-ssh://htpc/data/git/tex/gci/filexfer/operation/filexfer           gci/filexfer/operation/filexfer
-ssh://htpc/data/git/tex/gci/filexfer/operation/job-monitoring     gci/filexfer/operation/job-monitoring
-ssh://htpc/data/git/tex/gci/filexfer/operation/job-scheduling     gci/filexfer/operation/job-scheduling
-ssh://htpc/data/git/tex/gci/filexfer/operation/dataloader         g ci/filexfer/operation/dataloader
-ssh://htpc/data/git/tex/gci/filexfer/operation/relevance          gci/filexfer/operation/relevance
-ssh://htpc/data/git/tex/gci/filexfer/schema                       gci/filexfer/schema
-
 #
 # git revision control
 #
