@@ -14,32 +14,41 @@
 #
 
 # All Grain Brewing
-ssh://htpc/data/git/tex/all-grain-brewing                       all-grain-brewing
+ssh://htpc/data/git/tex/all-grain-brewing   all-grain-brewing
 
 # backup - Script to take datestamped backups.
-ssh://htpc/data/git/tex/backup                                  backup
+ssh://htpc/data/git/tex/backup   backup
 
 #
 # Bind name server
 # https://wiki.archlinux.org/index.php/BIND#BIND_Resources
 #
-ssh://htpc/data/git/tex/bind                                    bind
+ssh://htpc/data/git/tex/bind   bind
 
 #
 # chroot/ - Documentation of chroot environments for dhcp, dns,
 # and apache.
 #
-ssh://htpc/data/git/tex/chroot                                  chroot
+ssh://htpc/data/git/tex/chroot   chroot
+
+#
+# John Lion's
+# "A commentary on the Sixth Edition UNIX Operating System".
+# This form of the document was published
+# on the USENET alt.folklore.computers newsgroup
+# in May 1994. 
+#
+ssh://htpc/data/git/tex/lions   lions
 
 # Create Searchable PDFs
-ssh://htpc/data/git/tex/create-searchable-pdfs                  create-searchable-pdfs
+ssh://htpc/data/git/tex/create-searchable-pdfs   create-searchable-pdfs
 
 #
 # Notes on Branches in CVS
 # by James A. Crippen
 # jcrippen@spectrumwireless.com
 #
-ssh://htpc/data/git/tex/cvs-branches                            cvs-branches
+ssh://htpc/data/git/tex/cvs-branches   cvs-branches
 
 #
 # Development
