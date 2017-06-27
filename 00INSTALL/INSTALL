@@ -1,0 +1,246 @@
+INSTALL
+Created Tue Jun 27 08:35:35 AKDT 2017
+Copyright (C) 2017 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Installation of LateX on Debian jessie 8.8 amd64
+
+
+NOTE: ghostscript package has ps2pdf
+
+
+1. Install latex packages:
+ghostscript - interpreter for the PostScript language and for PDF
+texlive-base - TeX Live: Essential programs and files
+texlive-full - TeX Live: metapackage pulling in all components of TeX Live <===
+texlive-extra-utils - TeX Live: TeX auxiliary programs
+texlive-font-utils - TeX Live: Graphics and font utilities
+texlive-fonts-extra - TeX Live: Additional fonts
+texlive-fonts-extra-doc - TeX Live: Documentation files for texlive-fonts-extra
+texlive-lang-all - TeX Live: metapackage depending on all TeX Live language packages
+texlive-latex-extra - TeX Live: LaTeX additional packages
+texlive-latex-extra-doc - TeX Live: Documentation files for texlive-latex-extra
+texlive-math-extra - TeX Live: Mathematics packages
+texlive-pictures - TeX Live: Graphics, pictures, diagrams
+texlive-pictures-doc - TeX Live: Documentation files for texlive-pictures
+
+covellite:~# aptitude install texlive-full
+The following NEW packages will be installed:
+  aglfn{a} chktex{a} cm-super{a} cm-super-minimal{a} context{a} context-modules{a} dvidvi{a} dvipng{a} 
+  feynmf{a} fonts-cabin{a} fonts-comfortaa{a} fonts-crosextra-caladea{a} fonts-crosextra-carlito{a} 
+  fonts-ebgaramond{a} fonts-ebgaramond-extra{a} fonts-font-awesome{a} fonts-freefont-otf{a} 
+  fonts-gfs-artemisia{a} fonts-gfs-baskerville{a} fonts-gfs-bodoni-classic{a} fonts-gfs-complutum{a} 
+  fonts-gfs-didot{a} fonts-gfs-didot-classic{a} fonts-gfs-gazis{a} fonts-gfs-neohellenic{a} fonts-gfs-olga{a} 
+  fonts-gfs-porson{a} fonts-gfs-solomos{a} fonts-gfs-theokritos{a} fonts-hosny-amiri{a} fonts-inconsolata{a} 
+  fonts-ipaexfont-gothic{a} fonts-ipaexfont-mincho{a} fonts-ipafont-gothic{a} fonts-ipafont-mincho{a} 
+  fonts-junicode{a} fonts-lato{a} fonts-linuxlibertine{a} fonts-lobster{a} fonts-lobstertwo{a} 
+  fonts-oflb-asana-math{a} fonts-stix{a} fonts-texgyre{a} fragmaster{a} lacheck{a} latex-cjk-all{a} 
+  latex-cjk-chinese{a} latex-cjk-chinese-arphic-bkai00mp{a} latex-cjk-chinese-arphic-bsmi00lp{a} 
+  latex-cjk-chinese-arphic-gbsn00lp{a} latex-cjk-chinese-arphic-gkai00mp{a} latex-cjk-common{a} 
+  latex-cjk-japanese{a} latex-cjk-japanese-wadalab{a} latex-cjk-korean{a} latex-cjk-thai{a} latexdiff{a} 
+  latexmk{a} lcdf-typetools{a} libfile-homedir-perl{a} libfile-which-perl{a} libmagick++-6.q16-5{a} 
+  libplot2c2{a} libpoppler-qt4-4{a} libpstoedit0c2a{a} libyaml-tiny-perl{a} m-tx{a} musixtex{a} pfb2t1c2pfb{a} 
+  pmx{a} prerex{a} preview-latex-style{a} prosper{a} ps2eps{a} pstoedit{a} purifyeps{a} swath{a} tex-gyre{a} 
+  tex4ht{a} tex4ht-common{a} texlive-base{a} texlive-bibtex-extra{a} texlive-extra-utils{a} 
+  texlive-font-utils{a} texlive-fonts-extra{a} texlive-fonts-extra-doc{a} texlive-fonts-recommended{a} 
+  texlive-fonts-recommended-doc{a} texlive-formats-extra{a} texlive-full texlive-games{a} 
+  texlive-generic-extra{a} texlive-generic-recommended{a} texlive-humanities{a} texlive-humanities-doc{a} 
+  texlive-lang-african{a} texlive-lang-arabic{a} texlive-lang-chinese{a} texlive-lang-cjk{a} 
+  texlive-lang-cyrillic{a} texlive-lang-czechslovak{a} texlive-lang-english{a} texlive-lang-european{a} 
+  texlive-lang-french{a} texlive-lang-german{a} texlive-lang-greek{a} texlive-lang-indic{a} 
+  texlive-lang-italian{a} texlive-lang-japanese{a} texlive-lang-korean{a} texlive-lang-other{a} 
+  texlive-lang-polish{a} texlive-lang-portuguese{a} texlive-lang-spanish{a} texlive-latex-base{a} 
+  texlive-latex-base-doc{a} texlive-latex-extra{a} texlive-latex-extra-doc{a} texlive-latex-recommended{a} 
+  texlive-latex-recommended-doc{a} texlive-luatex{a} texlive-math-extra{a} texlive-metapost{a} 
+  texlive-metapost-doc{a} texlive-music{a} texlive-omega{a} texlive-pictures{a} texlive-pictures-doc{a} 
+  texlive-plain-extra{a} texlive-pstricks{a} texlive-pstricks-doc{a} texlive-publishers{a} 
+  texlive-publishers-doc{a} texlive-science{a} texlive-science-doc{a} texlive-xetex{a} tipa{a} 
+  ttf-adf-accanthis{a} ttf-adf-gillius{a} ttf-adf-universalis{a} vprerex{a} 
+0 packages upgraded, 141 newly installed, 0 to remove and 1 not upgraded.
+Need to get 1,679 MB/1,697 MB of archives. After unpacking 3,210 MB will be used.
+Do you want to continue? [Y/n/?] Y
+Get: 1 http://ftp.us.debian.org/debian/ jessie/main fonts-ipaexfont-gothic all 00201-4 [3,341 kB]
+Get: 2 http://security.debian.org/ jessie/updates/main libmagick++-6.q16-5 amd64 8:6.8.9.9-5+deb8u9 [257 kB]
+Get: 3 http://ftp.us.debian.org/debian/ jessie/main fonts-ipaexfont-mincho all 00201-4 [4,604 kB]
+Get: 4 http://ftp.us.debian.org/debian/ jessie/main fonts-ipafont-gothic all 00303-12 [3,524 kB] 
+Get: 5 http://ftp.us.debian.org/debian/ jessie/main fonts-ipafont-mincho all 00303-12 [4,728 kB]
+Get: 6 http://ftp.us.debian.org/debian/ jessie/main fonts-lato all 2.0-1 [2,684 kB] 
+Get: 7 http://ftp.us.debian.org/debian/ jessie/main libpoppler-qt4-4 amd64 0.26.5-2+deb8u1 [127 kB]                               
+Get: 8 http://ftp.us.debian.org/debian/ jessie/main libplot2c2 amd64 2.6-3 [934 kB]                                               
+Get: 9 http://ftp.us.debian.org/debian/ jessie/main libpstoedit0c2a amd64 3.62-2+b1 [317 kB]                                      
+Get: 10 http://ftp.us.debian.org/debian/ jessie/main chktex amd64 1.7.2-1 [102 kB]                                                
+Get: 11 http://ftp.us.debian.org/debian/ jessie/main texlive-latex-base all 2014.20141024-2+deb8u1 [858 kB]
+Get: 12 http://ftp.us.debian.org/debian/ jessie/main texlive-latex-recommended all 2014.20141024-2+deb8u1 [7,630 kB]
+Get: 13 http://ftp.us.debian.org/debian/ jessie/main texlive-latex-recommended all 2014.20141024-2+deb8u1 [7,630 kB]              
+Get: 14 http://ftp.us.debian.org/debian/ jessie/main cm-super-minimal all 0.3.4-9 [5,834 kB]                                      
+Get: 15 http://ftp.us.debian.org/debian/ jessie/main cm-super-minimal all 0.3.4-9 [5,834 kB]
+Get: 16 http://ftp.us.debian.org/debian/ jessie/main pfb2t1c2pfb amd64 0.3-10 [10.9 kB]                                           
+Get: 17 http://ftp.us.debian.org/debian/ jessie/main cm-super all 0.3.4-9 [25.6 MB]
+Get: 18 http://ftp.us.debian.org/debian/ jessie/main texlive-metapost all 2014.20141024-2+deb8u1 [437 kB]                         
+Get: 19 http://ftp.us.debian.org/debian/ jessie/main tex-gyre all 20140520-1 [5,051 kB]                                           
+Get: 20 http://ftp.us.debian.org/debian/ jessie/main context all 2014.05.21.20140528-2 [6,348 kB]
+Get: 21 http://ftp.us.debian.org/debian/ jessie/main context-modules all 20140528-2 [5,093 kB]                                    
+Get: 22 http://ftp.us.debian.org/debian/ jessie/main dvidvi amd64 1.0-8etch2 [17.0 kB]                                            
+Get: 23 http://ftp.us.debian.org/debian/ jessie/main dvipng amd64 1.14-2+b1 [84.4 kB]                                             
+Get: 24 http://ftp.us.debian.org/debian/ jessie/main texlive-font-utils all 2014.20141024-1 [1,728 kB]
+Get: 25 http://ftp.us.debian.org/debian/ jessie/main texlive-extra-utils all 2014.20141024-1 [10.6 MB]                            
+Get: 26 http://ftp.us.debian.org/debian/ jessie/main feynmf all 1.08-9 [406 kB]                                                   
+Get: 27 http://ftp.us.debian.org/debian/ jessie/main fonts-cabin all 1.5-2 [139 kB]                                               
+Get: 28 http://ftp.us.debian.org/debian/ jessie/main fonts-comfortaa all 2.003-1 [133 kB]                                         
+Get: 29 http://ftp.us.debian.org/debian/ jessie/main fonts-crosextra-caladea all 20130214-1 [82.1 kB]                             
+Get: 30 http://ftp.us.debian.org/debian/ jessie/main fonts-crosextra-carlito all 20130920-1 [745 kB]
+Get: 31 http://ftp.us.debian.org/debian/ jessie/main fonts-ebgaramond all 0.015+git20130628-3 [415 kB]                            
+Get: 32 http://ftp.us.debian.org/debian/ jessie/main fonts-ebgaramond-extra all 0.015+git20130628-3 [680 kB]                      
+Get: 33 http://ftp.us.debian.org/debian/ jessie/main fonts-font-awesome all 4.2.0~dfsg-1 [346 kB]                                 
+Get: 34 http://ftp.us.debian.org/debian/ jessie/main fonts-freefont-otf all 20120503-4 [3,186 kB]
+Get: 35 http://ftp.us.debian.org/debian/ jessie/main fonts-gfs-artemisia all 1.1-5 [259 kB]                                       
+Get: 36 http://ftp.us.debian.org/debian/ jessie/main fonts-gfs-baskerville all 1.1-5 [43.4 kB]                                    
+Get: 37 http://ftp.us.debian.org/debian/ jessie/main fonts-gfs-bodoni-classic all 1.1-5 [46.9 kB]                                 
+Get: 38 http://ftp.us.debian.org/debian/ jessie/main fonts-gfs-complutum all 1.1-6 [41.6 kB]                                      
+Get: 39 http://ftp.us.debian.org/debian/ jessie/main fonts-gfs-didot all 1.1-6 [278 kB]                                           
+Get: 40 http://ftp.us.debian.org/debian/ jessie/main fonts-gfs-didot-classic all 1.1-5 [44.8 kB]                                  
+Get: 41 http://ftp.us.debian.org/debian/ jessie/main fonts-gfs-gazis all 1.1-5 [46.3 kB]
+Get: 42 http://ftp.us.debian.org/debian/ jessie/main fonts-gfs-neohellenic all 1.1-6 [215 kB]                                     
+Get: 43 http://ftp.us.debian.org/debian/ jessie/main fonts-gfs-olga all 1.1-5 [33.2 kB]                                           
+Get: 44 http://ftp.us.debian.org/debian/ jessie/main fonts-gfs-porson all 1.1-6 [33.5 kB]                                         
+Get: 45 http://ftp.us.debian.org/debian/ jessie/main fonts-gfs-solomos all 1.1-5 [40.6 kB]                                        
+Get: 46 http://ftp.us.debian.org/debian/ jessie/main fonts-gfs-theokritos all 1.1-5 [61.0 kB]                                     
+Get: 47 http://ftp.us.debian.org/debian/ jessie/main fonts-hosny-amiri all 0.107-1 [750 kB]     
+Get: 48 http://ftp.us.debian.org/debian/ jessie/main fonts-inconsolata all 001.010-5 [61.6 kB]                                    
+Get: 49 http://ftp.us.debian.org/debian/ jessie/main fonts-junicode all 0.7.8-2 [643 kB]
+Get: 50 http://ftp.us.debian.org/debian/ jessie/main fonts-linuxlibertine all 5.3.0-2 [1,713 kB]
+Get: 51 http://ftp.us.debian.org/debian/ jessie/main fonts-lobster all 2.0-2 [39.5 kB]                                            
+Get: 52 http://ftp.us.debian.org/debian/ jessie/main fonts-lobstertwo all 2.0-2 [94.0 kB]                                         
+Get: 53 http://ftp.us.debian.org/debian/ jessie/main fonts-oflb-asana-math all 000.907-6 [245 kB]
+Get: 54 http://ftp.us.debian.org/debian/ jessie/main fonts-texgyre all 20140520-1 [7,943 kB]
+Get: 55 http://ftp.us.debian.org/debian/ jessie/main lacheck amd64 1.26-14 [31.5 kB]                                              
+Get: 56 http://ftp.us.debian.org/debian/ jessie/main latex-cjk-common amd64 4.8.3+git20140831-1 [242 kB]                          
+Get: 57 http://ftp.us.debian.org/debian/ jessie/main latex-cjk-chinese amd64 4.8.3+git20140831-1 [57.9 kB]                        
+Get: 58 http://ftp.us.debian.org/debian/ jessie/main latex-cjk-japanese amd64 4.8.3+git20140831-1 [36.8 kB]                       
+Get: 59 http://ftp.us.debian.org/debian/ jessie/main latex-cjk-korean all 4.8.3+git20140831-1 [17.1 kB]                           
+Get: 60 http://ftp.us.debian.org/debian/ jessie/main texlive-lang-other all 2014.20141024-1 [15.4 MB]
+Get: 61 http://ftp.us.debian.org/debian/ jessie/main latex-cjk-thai all 4.8.3+git20140831-1 [67.3 kB]                             
+Get: 62 http://ftp.us.debian.org/debian/ jessie/main latex-cjk-chinese-arphic-bsmi00lp all 1.23 [11.6 MB]
+Get: 63 http://ftp.us.debian.org/debian/ jessie/main latex-cjk-chinese-arphic-bkai00mp all 1.23 [12.7 MB]                         
+Get: 64 http://ftp.us.debian.org/debian/ jessie/main latex-cjk-chinese-arphic-gbsn00lp all 1.23 [5,297 kB]                        
+Get: 65 http://ftp.us.debian.org/debian/ jessie/main latex-cjk-chinese-arphic-gkai00mp all 1.23 [5,852 kB]                        
+Get: 66 http://ftp.us.debian.org/debian/ jessie/main latex-cjk-japanese-wadalab all 0.20050817-16 [18.4 MB]
+Get: 67 http://ftp.us.debian.org/debian/ jessie/main latex-cjk-all all 4.8.3+git20140831-1 [1,012 B]                              
+Get: 68 http://ftp.us.debian.org/debian/ jessie/main latexdiff all 1.0.4-1 [233 kB]                                               
+Get: 69 http://ftp.us.debian.org/debian/ jessie/main latexmk all 1:4.39-1 [370 kB]                                                
+Get: 70 http://ftp.us.debian.org/debian/ jessie/main aglfn all 1.7-3 [29.2 kB]                                                    
+Get: 71 http://ftp.us.debian.org/debian/ jessie/main lcdf-typetools amd64 2.104~dfsg-1 [654 kB]                                   
+Get: 72 http://ftp.us.debian.org/debian/ jessie/main libfile-which-perl all 1.09-1 [13.1 kB]                                      
+Get: 73 http://ftp.us.debian.org/debian/ jessie/main libfile-homedir-perl all 1.00-1 [48.9 kB]                                    
+Get: 74 http://ftp.us.debian.org/debian/ jessie/main libyaml-tiny-perl all 1.64-1 [31.8 kB]                                       
+Get: 75 http://ftp.us.debian.org/debian/ jessie/main m-tx amd64 0.60d.ctan20131224-1 [537 kB]                                     
+Get: 76 http://ftp.us.debian.org/debian/ jessie/main musixtex amd64 1:1.15.ctan20131214-1 [6,685 kB]                              
+Get: 77 http://ftp.us.debian.org/debian/ jessie/main pmx amd64 2.7.0.ctan20131214-1 [738 kB]                                      
+Get: 78 http://ftp.us.debian.org/debian/ jessie/main texlive-pictures all 2014.20141024-2+deb8u1 [3,039 kB]                       
+Get: 79 http://ftp.us.debian.org/debian/ jessie/main texlive-generic-recommended all 2014.20141024-2+deb8u1 [2,143 kB]            
+Get: 80 http://ftp.us.debian.org/debian/ jessie/main prerex amd64 6.5.3-1 [598 kB]                                                
+Get: 81 http://ftp.us.debian.org/debian/ jessie/main preview-latex-style all 11.87-3+deb8u1 [318 kB]                              
+Get: 82 http://ftp.us.debian.org/debian/ jessie/main texlive-pstricks all 2014.20141024-1 [26.2 MB]                               
+Get: 83 http://ftp.us.debian.org/debian/ jessie/main prosper all 1.00.4+cvs.2007.05.01-4 [461 kB]                                 
+Get: 84 http://ftp.us.debian.org/debian/ jessie/main ps2eps amd64 1.68+binaryfree-1 [37.7 kB]                                     
+Get: 85 http://ftp.us.debian.org/debian/ jessie/main pstoedit amd64 3.62-2+b1 [113 kB]                                            
+Get: 86 http://ftp.us.debian.org/debian/ jessie/main purifyeps all 1.1-2 [42.8 kB]                                                
+Get: 87 http://ftp.us.debian.org/debian/ jessie/main swath amd64 0.5.3-1 [165 kB]                                                 
+Get: 88 http://ftp.us.debian.org/debian/ jessie/main tex4ht-common all 20090611-1.1 [2,079 kB]                                    
+Get: 89 http://ftp.us.debian.org/debian/ jessie/main tex4ht amd64 20090611-1.1+b1 [200 kB]                                        
+Get: 90 http://ftp.us.debian.org/debian/ jessie/main texlive-bibtex-extra all 2014.20141024-1 [33.5 MB]
+Get: 91 http://ftp.us.debian.org/debian/ jessie/main ttf-adf-universalis all 0.20090423-2 [221 kB]                                                
+Get: 92 http://ftp.us.debian.org/debian/ jessie/main ttf-adf-gillius all 0.20090423-2 [400 kB]                                                    
+Get: 93 http://ftp.us.debian.org/debian/ jessie/main fonts-stix all 1.1.1-1 [588 kB]                                                              
+Get: 94 http://ftp.us.debian.org/debian/ jessie/main ttf-adf-accanthis all 0.20090423-2 [401 kB]                                                  
+Get: 95 http://ftp.us.debian.org/debian/ jessie/main texlive-fonts-extra all 2014.20141024-1 [204 MB]                                             
+Get: 96 http://ftp.us.debian.org/debian/ jessie/main texlive-fonts-extra-doc all 2014.20141024-1 [60.3 MB]                                        
+Get: 97 http://ftp.us.debian.org/debian/ jessie/main texlive-fonts-recommended all 2014.20141024-2+deb8u1 [5,654 kB]                              
+Get: 98 http://ftp.us.debian.org/debian/ jessie/main texlive-fonts-recommended-doc all 2014.20141024-2+deb8u1 [2,758 kB]                          
+Get: 99 http://ftp.us.debian.org/debian/ jessie/main texlive-latex-extra all 2014.20141024-1 [7,604 kB]                                           
+Get: 100 http://ftp.us.debian.org/debian/ jessie/main tipa all 2:1.3-20 [2,972 kB]                                                                
+Get: 101 http://ftp.us.debian.org/debian/ jessie/main texlive-xetex all 2014.20141024-2+deb8u1 [9,259 kB]                                         
+Get: 102 http://ftp.us.debian.org/debian/ jessie/main texlive-formats-extra all 2014.20141024-1 [2,527 kB]                                        
+Get: 103 http://ftp.us.debian.org/debian/ jessie/main texlive-lang-african all 2014.20141024-1 [5,905 kB]                                         
+Get: 104 http://ftp.us.debian.org/debian/ jessie/main texlive-lang-cjk all 2014.20141024-1 [2,628 kB]                                             
+Get: 105 http://ftp.us.debian.org/debian/ jessie/main texlive-omega all 2014.20141024-2+deb8u1 [2,115 kB]                                         
+Get: 106 http://ftp.us.debian.org/debian/ jessie/main texlive-lang-german all 2014.20141024-1 [21.9 MB]                                           
+Get: 107 http://ftp.us.debian.org/debian/ jessie/main texlive-pictures-doc all 2014.20141024-2+deb8u1 [72.0 MB]                                   
+Get: 108 http://ftp.us.debian.org/debian/ jessie/main texlive-lang-korean all 2014.20141024-1 [40.5 MB]                                           
+Get: 109 http://ftp.us.debian.org/debian/ jessie/main texlive-luatex all 2014.20141024-2+deb8u1 [8,598 kB]
+Get: 110 http://ftp.us.debian.org/debian/ jessie/main texlive-latex-base-doc all 2014.20141024-2+deb8u1 [38.3 MB]
+Get: 111 http://ftp.us.debian.org/debian/ jessie/main texlive-lang-polish all 2014.20141024-1 [6,970 kB]                                          
+Get: 112 http://ftp.us.debian.org/debian/ jessie/main texlive-science all 2014.20141024-1 [2,425 kB]                                              
+Get: 113 http://ftp.us.debian.org/debian/ jessie/main texlive-lang-portuguese all 2014.20141024-1 [10.3 MB]                                       
+Get: 114 http://ftp.us.debian.org/debian/ jessie/main texlive-latex-recommended-doc all 2014.20141024-2+deb8u1 [37.4 MB]
+Get: 115 http://ftp.us.debian.org/debian/ jessie/main texlive-metapost-doc all 2014.20141024-2+deb8u1 [28.7 MB]
+Get: 116 http://ftp.us.debian.org/debian/ jessie/main texlive-games all 2014.20141024-1 [6,825 kB]                                                
+Get: 117 http://ftp.us.debian.org/debian/ jessie/main texlive-generic-extra all 2014.20141024-1 [12.0 MB]                                         
+Get: 118 http://ftp.us.debian.org/debian/ jessie/main texlive-pstricks-doc all 2014.20141024-1 [85.6 MB]
+Get: 119 http://ftp.us.debian.org/debian/ jessie/main texlive-math-extra all 2014.20141024-1 [13.3 MB]                                            
+Get: 120 http://ftp.us.debian.org/debian/ jessie/main texlive-music all 2014.20141024-1 [9,953 kB]                                                
+Get: 121 http://ftp.us.debian.org/debian/ jessie/main texlive-humanities-doc all 2014.20141024-1 [14.9 MB]                                        
+Get: 122 http://ftp.us.debian.org/debian/ jessie/main texlive-lang-english all 2014.20141024-1 [62.8 MB]                                          
+Get: 123 http://ftp.us.debian.org/debian/ jessie/main texlive-publishers-doc all 2014.20141024-1 [83.8 MB]                                        
+Get: 124 http://ftp.us.debian.org/debian/ jessie/main texlive-publishers all 2014.20141024-1 [7,946 kB]                                           
+Get: 125 http://ftp.us.debian.org/debian/ jessie/main texlive-humanities all 2014.20141024-1 [308 kB]                                             
+Get: 126 http://ftp.us.debian.org/debian/ jessie/main texlive-latex-extra-doc all 2014.20141024-1 [327 MB]
+Get: 127 http://ftp.us.debian.org/debian/ jessie/main texlive-plain-extra all 2014.20141024-1 [3,145 kB]                                          
+Get: 128 http://ftp.us.debian.org/debian/ jessie/main texlive-lang-chinese all 2014.20141024-1 [30.8 MB]                                          
+Get: 129 http://ftp.us.debian.org/debian/ jessie/main texlive-lang-spanish all 2014.20141024-1 [4,605 kB]                                         
+Get: 130 http://ftp.us.debian.org/debian/ jessie/main fragmaster all 1.7-4 [123 kB]                                                               
+Get: 131 http://ftp.us.debian.org/debian/ jessie/main texlive-lang-italian all 2014.20141024-1 [5,604 kB]
+Get: 132 http://ftp.us.debian.org/debian/ jessie/main texlive-science-doc all 2014.20141024-1 [24.0 MB]
+Get: 133 http://ftp.us.debian.org/debian/ jessie/main texlive-lang-czechslovak all 2014.20141024-1 [10.6 MB]
+Get: 134 http://ftp.us.debian.org/debian/ jessie/main texlive-lang-japanese all 2014.20141024-1 [8,116 kB]
+Get: 135 http://ftp.us.debian.org/debian/ jessie/main texlive-lang-arabic all 2014.20141024-1 [11.9 MB]                                           
+Get: 136 http://ftp.us.debian.org/debian/ jessie/main texlive-lang-greek all 2014.20141024-1 [75.0 MB]
+Get: 137 http://ftp.us.debian.org/debian/ jessie/main texlive-lang-cyrillic all 2014.20141024-1 [19.3 MB]
+Get: 138 http://ftp.us.debian.org/debian/ jessie/main texlive-lang-french all 2014.20141024-1 [15.2 MB]                                           
+Get: 139 http://ftp.us.debian.org/debian/ jessie/main texlive-lang-indic all 2014.20141024-1 [6,512 kB]                                           
+Get: 140 http://ftp.us.debian.org/debian/ jessie/main texlive-lang-european all 2014.20141024-1 [9,111 kB]                                        
+Get: 141 http://ftp.us.debian.org/debian/ jessie/main texlive-full all 2014.20141024-2+deb8u1 [29.4 kB]                                           
+Get: 142 http://ftp.us.debian.org/debian/ jessie/main vprerex amd64 6.5.3-1 [25.6 kB]                                                             
+Fetched 1,671 MB in 1h 40min 19s (278 kB/s)                                                                                                       
+Extracting templates from packages: 100%
+Preconfiguring packages ...
+Selecting previously unselected package fonts-ipaexfont-gothic.
+(Reading database ... 152449 files and directories currently installed.)
+Preparing to unpack .../fonts-ipaexfont-gothic_00201-4_all.deb ...
+Unpacking fonts-ipaexfont-gothic (00201-4) ...
+Selecting previously unselected package fonts-ipaexfont-mincho.
+Preparing to unpack .../fonts-ipaexfont-mincho_00201-4_all.deb ...
+Unpacking fonts-ipaexfont-mincho (00201-4) ...
+...
+Setting up latex-cjk-all (4.8.3+git20140831-1) ...
+Setting up prerex (6.5.3-1) ...
+Setting up vprerex (6.5.3-1) ...
+Processing triggers for tex-common (5.03) ...
+Running mktexlsr. This may take some time... done.
+Running mtxrun --generate. This may take some time... done.
+Running updmap-sys. This may take some time... done.
+Running mktexlsr /var/lib/texmf ... done.
+Setting up texlive-xetex (2014.20141024-2+deb8u1) ...
+Running mktexlsr. This may take some time... done.
+Building format(s) --all --cnffile /etc/texmf/fmt.d/10texlive-xetex.cnf.
+	This may take some time... done.
+Setting up texlive-formats-extra (2014.20141024-1) ...
+Running mktexlsr. This may take some time... done.
+Building format(s) --all --cnffile /etc/texmf/fmt.d/10texlive-formats-extra.cnf.
+	This may take some time... done.
+Setting up prosper (1.00.4+cvs.2007.05.01-4) ...
+Running mktexlsr. This may take some time... done.
+Setting up texlive-full (2014.20141024-2+deb8u1) ...
+Processing triggers for libc-bin (2.19-18+deb8u10) ...
+Processing triggers for menu (2.1.47) ...
+                                         
+covellite:~#
+
+This installed:
+  /usr/bin/dvips
+  /usr/bin/latex
+  /usr/bin/ps2pdf
+
+
+
+LaTeX builds now work.
