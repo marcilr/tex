@@ -31,15 +31,6 @@ ssh://htpc/data/git/tex/bind   bind
 #
 ssh://htpc/data/git/tex/chroot   chroot
 
-#
-# John Lion's
-# "A commentary on the Sixth Edition UNIX Operating System".
-# This form of the document was published
-# on the USENET alt.folklore.computers newsgroup
-# in May 1994. 
-#
-ssh://htpc/data/git/tex/lions   lions
-
 # Create Searchable PDFs
 ssh://htpc/data/git/tex/create-searchable-pdfs   create-searchable-pdfs
 
@@ -53,12 +44,12 @@ ssh://htpc/data/git/tex/cvs-branches   cvs-branches
 #
 # Development
 #
-github.com:marcilr/tex-dev                                  dev
+github.com:marcilr/tex-dev   dev
 
 #
 # GCI Network Services, OSS
 #
-ssh://htpc/data/git/tex/gci                                     gci
+ssh://htpc/data/git/tex/gci   gci
 
 # FileXfer application
 ssh://htpc/data/git/tex/gci/filexfer                              gci/filexfer
@@ -96,6 +87,7 @@ ssh://htpc/data/git/tex/gci/filexfer/schema                       gci/filexfer/s
 #ssh://htpc/data/git/tex/git/tex/remotes/cloud                    git/tex/remotes/cloud
 #ssh://htpc/data/git/tex/git/tex/remotes/cloud/github             git/tex/remotes/cloud/github
 #ssh://htpc/data/git/tex/git/tex/remotes/commands                 git/tex/remotes/commands
+
 #ssh://htpc/data/git/tex/git/tex/repo                             git/tex/repo
 #ssh://htpc/data/git/tex/git/tex/repo/commands                    git/tex/repo/commands
 #ssh://htpc/data/git/tex/git/tex/repo/configuration               git/tex/repo/configuration
@@ -108,5 +100,15 @@ ssh://htpc/data/git/tex/gci/filexfer/schema                       gci/filexfer/s
 #
 # Languages
 #
-github.com:marcilr/tex-dev-lang                             dev/lang
-github.com:marcilr/tex-dev-lang-go                          dev/lang/go
+github.com:marcilr/tex-dev-lang      dev/lang
+github.com:marcilr/tex-dev-lang-go   dev/lang/go
+
+#
+# John Lion's
+# "A commentary on the Sixth Edition UNIX Operating System".
+# This form of the document was published
+# on the USENET alt.folklore.computers newsgroup
+# in May 1994. 
+#
+ssh://htpc/data/git/tex/lions   lions
+
