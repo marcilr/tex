@@ -34,6 +34,13 @@ ssh://htpc/data/git/tex/chroot   chroot
 # Create Searchable PDFs
 ssh://htpc/data/git/tex/create-searchable-pdfs   create-searchable-pdfs
 
+
+#
+# Comprehensive TEX Archive Network
+# http://www.ctan.org/
+#
+ssh://htpc/data/git/tex/ctan   ctan
+
 #
 # Notes on Branches in CVS
 # by James A. Crippen
