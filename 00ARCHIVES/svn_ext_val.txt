@@ -1,0 +1,28 @@
+#
+# svn_ext_val.txt
+# Created Thu Aug  4 08:27:37 AKDT 2011
+# by Raymond E. Marcil <marcilr@gmail.com>
+#
+
+#
+# List of repo hierarchical directories to checkout under latex/
+#
+# ctan/             Comprehensive TEX Archive Network
+#                   http://www.ctan.org/
+#
+# docs/             Documentation
+# latex-examples/   Examples
+# macros/           Macros and style files.
+# pics/             Pictures.
+# replacement/      LaTeX Replacement?
+# template/         Template
+# texlive/          TeX Live: A decent selection of the TeX Live packages
+#
+../../latex/ctan/ctan                       ./ctan
+../../latex/docs/docs                       ./docs
+../../latex/latex-examples/latex-examples   ./latex-examples
+../../latex/macros/macros                   ./macros
+../../latex/pics/pics                       ./pics
+../../latex/replacement/replacement         ./replacement
+../../latex/template/template               ./template
+../../latex/texlive/texlive                 ./texlive
