@@ -24,6 +24,10 @@ chroot/
 create-searchable-pdfs/
   Create Searchable PDFs
 
+ctan/
+  Comprehensive TEX Archive Network
+  http://www.ctan.org/
+
 cvs-branches/
   Notes on Branches in CVS
   by James A. Crippen
