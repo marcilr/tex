@@ -57,9 +57,6 @@ manifestos/
 net/
   Directory for network related documents.
 
-packages/
-  Packages for LaTeX
-
 php-based-website/
   PHP-based website design & implementation
 
