@@ -100,7 +100,7 @@ github.com:marcilr/tex-dev-lang-go   dev/lang/go
 ssh://htpc/data/git/tex/lions   lions
 
 # Packages for LaTeX
-ssh://htpc/data/git/tex/packages   packages
+ssh://htpc/data/git/tex/packages/packages   packages
 
 #
 # Template for LaTeX
