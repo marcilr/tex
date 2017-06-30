@@ -1,0 +1,28 @@
+add-unnumbered-sections-to-toc.txt
+Created Tue Aug  5 09:50:01 AKDT 2014
+Copyright (C) 2014 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Adding unnumbered sections to TOC
+
+Previous I used section* to remove the section number from the
+Appendix.  However, this had the side affect of removing the 
+Appendix from the TOC (Table of Contents).
+
+Typically I have create an unnumbered Appendix using:
+  \section*{Appendix}
+
+The best solution is use of secnumdepth such that sections like Appendix
+will not get numbered:
+
+setcounter{secnumdepth}{0}    <=== Disable section numbering
+\section{Appendix}
+
+\setcounter{secnumdepth}{1}   <=== Enable section numbering
+\section{Appendix}
+
+
+Links
+=====
+Adding unnumbered sections to TOC
+http://tex.stackexchange.com/questions/11668/adding-unnumbered-sections-to-toc
