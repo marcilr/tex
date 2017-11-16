@@ -1,9 +1,135 @@
 README
-Created Thu Jun 29 17:42:45 AKDT 2017
-Copyright (C) 2017 by Raymond E. Marcil <marcilr@gmail.com>
+Created Wed Sep 19 12:57:57 AKDT 2012
+Copyright (C) 2012 by Raymond E. Marcil <marcilr@gmail.com>
 
 
 Filelist
 ========
 add-unnumbered-sections-to-toc.txt
   Adding unnumbered sections to TOC
+
+bibtex/
+  Use of BibTeX for generating a bibliography.
+
+bold.txt
+  Bold text in LaTeX.
+
+endnotes.txt
+  Endnotes in LaTeX.
+
+epslatex/
+  Using Imported Graphics in LaTeX2e
+  Version 2.0 - December 15, 1997
+  by Keith Reckdahl <reckdahl@am-sun2.stanford.edu>
+
+essential/
+  Essential LaTeX (17 pages)
+  U05.04-202, August 2009
+  by John Warbrick
+
+font-sizes.txt
+  LaTeX font sizes.
+
+footnotes.txt
+  Footnotes in LaTeX.
+
+footnotes-in-captions.txt
+  Footnotes in captions
+  Use of footnotemark{} and \footnotetext{}.
+  http://tex.stackexchange.com/questions/7078/footnotetext-on-different-page-from-footnotemark
+
+force-figure-placement.txt
+  To force the figure placement in text, i.e. not float around, use [ht]
+  with figure.
+
+hyperlinks.txt
+  Hyperref package.
+
+  Creating hyperlinks in a LaTeX document is essential.
+  The best way to do this is use the hyperref package.
+
+  The package derives from, and builds on, the work of the HyperTEX
+  project, described at http://xxx.lanl.gov/hypertex/.  It extends
+  the functionality of all the LATEX cross-referencing commands
+  (including the table of contents, bibliographies etc) to produce
+  \special commands which a driver can turn into hypertext links;
+  it also provides new commands to allow the user to write ad hoc
+  hypertext links, including those to external documents and URLs.
+
+  tug.org/applications/hyperref/
+
+include.txt
+  There are two different commands to incorporate another file into
+  the source of some document,  \input and \include.  When should
+  I use one or the other?  What are the differences between them?
+  Are there more things like them to be aware of?
+
+Latex_reference.pdf
+  A Document Preparation System
+  User's Guide and Reference Manual
+  Leslie Lamport
+  Digital Equipment Corporation
+  Illustrations by Duane Bibby
+  Addison-Wesley Publishing Company
+  ISBN: 0-201-52983-1
+  http://math.uci.edu/icamp/computing/latex/Latex_reference.pdf
+
+latex_tricks/
+  LaTeX Tricks
+  Some of the decent trick like including program listings,
+  rotating tables and figures, math tricks, and word counts.
+  http://www.manicai.net/comp/latex/latex_tricks.html
+
+latexw4p/
+  LaTeX for Word Processor Users
+  version 1.0.6 - December 9, 2003
+  by Guido Gonzato, Ph.D.
+
+lshort-3.2.0/
+  The Not So Short Introduction to LaTeX2E
+  by Tobias Oetiker <oetiker@ee.ethz.ch>
+  Version 3.20, 09 August, 2001
+
+lshort-4.20/
+  The Not So Short Introduction to LaTeX2E
+  by Tobias Oetiker <oetiker@ee.ethz.ch>
+  Version 4.20, June 07, 2006
+
+macro-path.tex
+  Include macros in LaTeX macro path?
+
+mil.pdf
+  Math into LaTeX
+  An Introduction to LaTeX and AMS-LaTeX
+  by George Gratzer
+  ISBN: 0-8176-3805-9
+  http://math.uci.edu/icamp/computing/latex/mil.pdf
+
+qtree.txt
+  A nice structure for displaying tree like graph structures in
+  the gis project-spec.tex doc for displaying a directory hierarchy
+  put could be used for other tree-link graph structures.
+
+tables.txt
+  Creating Tables with LaTeX
+  http://www1.maths.leeds.ac.uk/latex/TableHelp1.pdf
+
+tabs.txt
+  How to use TABS in LaTeX
+  http://stuff.mit.edu/afs/athena/project/consultdev/answers/latex/formatting/latex_tabs.html
+
+today.txt
+  To get the current datestamp in a document,  
+  like cover-lettex.tex, use: \today
+
+usrguide/
+  LATEX2E for authors
+  Copyright 1994, LATEX3 Project Team
+  All rights reserverd.
+  14 December 1994
+  http://www.tug.org/docs/html/usrguide/
+
+verbatim.txt
+  You can also use the verbatim environment for larger pieces of
+  text that you need to format.
+  http://www.cs.cornell.edu/info/misc/latex-tutorial/fonts.html
