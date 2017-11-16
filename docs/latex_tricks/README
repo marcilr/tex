@@ -1,0 +1,18 @@
+README
+Created Fri Aug 12 13:03:03 AKDT 2005
+by Raymond E. Marcil <marcilr@gmail.com>
+
+
+LaTeX Tricks
+
+
+Filelist
+========
+css/
+  Stylesheet for latex_tricks.html
+
+latex_tricks.html
+  LaTeX Tricks
+  Some of the decent trick like including program listings,
+  rotating tables and figures, math tricks, and word counts.
+  http://www.manicai.net/comp/latex/latex_tricks.html
