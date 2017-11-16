@@ -1,0 +1,36 @@
+verbatim.txt
+Created Fri Dec 21 10:06:55 AKST 2012
+Copyright (C) 2012 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+You can also use the verbatim environment for larger pieces
+of text that you need to format.  There are begin/end constructs
+to let Mosaic (or other browser) as in:
+
+    \begin{verbatim}
+        : 
+    bunch of things
+        : 
+    \end{verbatim} 
+
+Everything in the verbatim environment is printed exactly as is.
+Note, however, that tabs are ignored, so be sure to use spaces
+to position text.  Also, you cannot center verbatim text, but
+you can quote it:
+
+    \begin{quote} 
+    \begin{verbatim}
+        : 
+    \end{verbatim} 
+    \end{quote} 
+
+Note that everything in verbatim is in typewriter font, and that
+no LaTeX commands are recognized as such. 
+
+cs.cornell.edu/
+
+
+Links
+=====
+Fonts, Scope, and Symbols
+http://www.cs.cornell.edu/info/misc/latex-tutorial/fonts.html
