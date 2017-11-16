@@ -1,0 +1,66 @@
+hyperlinks.txt
+Created Tue Dec 18 18:23:15 AKST 2012
+Copyright (C) 2012 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Hyperref package.
+
+
+Creating hyperlinks in a LaTeX document is essential.
+The best way to do this is use the hyperref package.
+
+The package derives from, and builds on, the work of the HyperTEX
+project, described at http://xxx.lanl.gov/hypertex/.  It extends
+the functionality of all the LATEX cross-referencing commands
+(including the table of contents, bibliographies etc) to produce
+\special commands which a driver can turn into hypertext links;
+it also provides new commands to allow the user to write ad hoc
+hypertext links, including those to external documents and URLs.
+
+tug.org/applications/hyperref/
+
+
+Include hyperref package
+========================
+%%
+%% Hyperref package for embedding URLs for clickable links in PDFs, 
+%% also specify PDF attributes here.
+%%
+%% FIXME: Blue hyperlinks would be nice.  Not certain which option actually
+%%        does this.
+%%
+%% The pdfborder={0 0 0} is what ellimated the blue box around the url
+%% displayed by \href{}{}.
+%%
+%% The command pdfborder={0 0 1} would display a box with thickness of 1 pt.
+%%
+%% Hypertext marks in LATEX: a manual for hyperref
+%% by Sebastian Rahtz and Heiko Oberdiek - November 2012
+%% http://ctan.org/pkg/hyperref 
+%% http://mirror.hmc.edu/ctan/macros/latex/contrib/hyperref/doc/manual.html
+%%
+\usepackage[
+colorlinks,
+linkcolor=blue,
+%%colorlinks=false,
+hyperindex=false,
+urlcolor=blue,
+pdfborder={0 0 0},
+pdfauthor={Raymond E. Marcil},
+pdftitle={DVR Requirements},
+pdfcreator={ps2pdf},
+pdfsubject={DVR Requirements},
+pdfkeywords={DVR, digital video recorder, requirements}
+]{hyperref}
+
+
+Create hyperlink
+================
+To create hyperlink to google:
+  \href{http://www.google.com}{Google}
+
+
+Filelist
+========
+00LATEX/00MACROS/hyperref/
+  Hyperref package.
