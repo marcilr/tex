@@ -1,0 +1,7 @@
+today.txt
+Created Thu Apr  4 10:07:54 AKDT 2013
+Copyright (C) 2013 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+To get the current datestamp in a document, like cover-lettex.tex,
+use: \today
