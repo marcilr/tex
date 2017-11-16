@@ -1,0 +1,24 @@
+bibtex.txt
+Created Fri Apr 26 08:54:07 AKDT 2013
+Copyright (C) 2013 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+How to Use BibTeX
+
+BibTeX can be amazing if you use it properly.  It is a very powerful way to cite sources and
+compile a bibliography in a LaTeX document.  Here, I provide you with my non-fail guide to BibTeX.
+
+BibTeX relies on a database file.  How this works is personal preference.  You can have one
+database file for each document you write, or you can do what I do and have one database file,
+period.  This way I can have a huge database and pluck out the papers I need from it. 
+
+hawaii.edu/
+
+
+Links
+=====
+How to Use BibTeX
+LaTeX/Bibtex
+http://webcache.googleusercontent.com/search?hl=en&q=cache:EeOEB21k71EJ:http://www.ifa.hawaii.edu/~gradrep/wiki/index.php/LaTeX/Bibtex%2Blatex+\citation&gbv=2&gs_l=heirloom-hp.3..0l10.1570.4832.0.5344.15.15.0.0.0.0.136.1591.7j8.15.0...0.0...1ac.1.NnFGGSwwHKk&ct=clnk
+http://www.ifa.hawaii.edu/~gradrep/wiki/index.php/LaTeX/Bibtex
+  (University of Hawai'i Institute of Astronomy login required)
