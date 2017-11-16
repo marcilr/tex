@@ -1,0 +1,25 @@
+links.txt
+Created Mon Jan  7 16:39:09 AKST 2013
+Copyright (C) 2013 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Footnote related links
+
+
+Links
+=====
+Counters
+http://zon8.physd.amu.edu.pl/LaTeX/ltx-3.html
+
+\footnotemark[num]
+http://zon8.physd.amu.edu.pl/LaTeX/ltx-232.html
+
+\footnotetext[num]{text}
+http://zon8.physd.amu.edu.pl/LaTeX/ltx-234.html
+
+LaTeX: adding footnotes in tables (or other floats)
+http://dound.com/2009/06/latex-adding-footnotes-in-tables-or-other-floats/
+
+LaTeX Footnotes
+http://www.personal.ceu.hu/tex/footnote.htm
+
