@@ -70,16 +70,6 @@ include.txt
   I use one or the other?  What are the differences between them?
   Are there more things like them to be aware of?
 
-Latex_reference.pdf
-  A Document Preparation System
-  User's Guide and Reference Manual
-  Leslie Lamport
-  Digital Equipment Corporation
-  Illustrations by Duane Bibby
-  Addison-Wesley Publishing Company
-  ISBN: 0-201-52983-1
-  http://math.uci.edu/icamp/computing/latex/Latex_reference.pdf
-
 latex_tricks/
   LaTeX Tricks
   Some of the decent trick like including program listings,
