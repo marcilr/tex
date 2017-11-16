@@ -1,0 +1,30 @@
+include.txt
+Created Fri Apr 27 14:01:15 AKDT 2012
+Copyright (C) 2012 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+When should I use \input vs. \include?
+
+
+There are two different commands to incorporate another file into
+the source of some document, \input and \include. When should I
+use one or the other?  What are the differences between them?
+Are there more things like them to be aware of?
+
+
+\input{filename} imports the commands from filename into the target
+file; it's equivalent to typing all the commands from filename right
+into the current file where the \input line is \include{filename}
+essentially does a \clearpage before and after \input{filename},
+together  with some magic to switch to another .aux file, and omit
+the inclusion at all if you have an \includeonly without the filename
+in the argument.  This is primarily useful when you have a big project
+on a slow computer; changing one of the include targets won't force
+you to regenerate the outputs of all the rest \include gets you the
+speed bonus, but it also can't be nested, can't appear in the preamble,
+and forces page breaks around the included text.
+
+
+NOTE: Have not seen \include{filename} work yet.
+      \input{filename} is working in
+      00MANIFESTOS/blackboard/blackboard-manifesto.tex
