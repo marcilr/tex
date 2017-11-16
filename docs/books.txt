@@ -1,0 +1,44 @@
+books.txt
+Created Mon Nov 12 14:11:02 AKST 2012
+Copyright (C) 2012 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+LaTeX books
+
+The LaTeX Companion (Second Edition)
+by Frank Mittelbach, Michel Goossens, Johannes Braams and David Carlisle (May 2, 2004)
+$32.75 (amazon - Nov 12, 2012)
+
+The LaTeX Companions Third Revised Boxed Set: A Complete Guide and Reference for Preparing,
+Illustrating and Publishing Technical Documents (2nd Edition) [Paperback]
+This attractively priced boxed set brings together four leading books on the LaTeX software
+system for typesetting documents, covering all you need to know about LaTeX.  Because LaTeX is
+especially good for technical documents and is freely available for almost any computer system,
+it has become a lingua franca of the scientific world.  The first book in the set, Guide to LaTeX,
+4/e , shows you how to begin using LaTeX, and also serves as a handy reference.  The next three
+books, whose authors have taken a lead role in the development and dissemination of LaTeX's most
+recent versions, are The LaTeX Companion, 2/e , The Latex Graphics Companion, 2/e , and The LaTeX
+Web Companion.  They provide further information on tools and techniques available for more
+complex typesetting needs, for incorporating graphics into documents, and for publishing technical
+text on the Web.  Whether you are new to LaTeX or want to be sure that your LaTeX library is
+current and complete, you will find a useful place for this set on your reference shelf.
+$167.29 (amazon - Nov 12, 2012)
+
+The TeXbook (496 pages)
+by Donald E. Knuth 
+ISBN-10: 0201134489
+ISBN-13: 978-0201134483
+$36.83 (amazon - Nov 12, 2012)
+
+
+Filelist
+========
+Latex_reference.pdf
+  A Document Preparation System
+  User's Guide and Reference Manual
+  Leslie Lamport
+  Digital Equipment Corporation
+  Illustrations by Duane Bibby
+  Addison-Wesley Publishing Company
+  ISBN: 0-201-52983-1
+  http://math.uci.edu/icamp/computing/latex/Latex_reference.pdf
