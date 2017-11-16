@@ -1,0 +1,171 @@
+how-to-use-bibtex.txt
+Created Fri Apr 26 09:01:48 AKDT 2013
+Copyright (C) 2013 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+LaTeX/Bibtex
+============
+Contents [hide]
+1 How to Use BibTeX
+1.1 Creating a Database
+1.2 Setting up for BibTeX
+1.3 Citations
+1.4 Bibliography
+1.5 Generating the Final File
+1.6 A Quick Note about TeXShop for Mac OS
+1.7 Bibliography management
+
+
+How to Use BibTeX
+=================
+BibTeX can be amazing if you use it properly.  It is a very powerful way to cite sources and
+compile a bibliography in a LaTeX document. Here,  I provide you with my non-fail guide to BibTeX.
+
+BibTeX relies on a database file.  How this works is personal preference.  You can have one
+database file for each document you write, or you can do what I do and have one database file,
+period. This way I can have a huge database and pluck out the papers I need from it.
+
+
+Creating a Database
+===================
+A database is simply a text file with the extension '.bib'.  Each entry in the database starts
+with the '@' symbol.  Usually when referencing a journal, it will begin with @ARTICLE.  Each
+database entry is rather complex, here is a sample:
+
+@ARTICLE{2011A&A...525A.143C,
+   author = {{Cassata}, P. and {Le F{\`e}vre}, O. and {Garilli}, B. and {Maccagni}, D. and 
+	{Le Brun}, V. and {Scodeggio}, M. and {Tresse}, L. and {Ilbert}, O. and 
+	{Zamorani}, G. and {Cucciati}, O. and {Contini}, T. and {Bielby}, R. and 
+	{Mellier}, Y. and {McCracken}, H.~J. and {Pollo}, A. and {Zanichelli}, A. and 
+	{Bardelli}, S. and {Cappi}, A. and {Pozzetti}, L. and {Vergani}, D. and 
+	{Zucca}, E.},
+    title = "{The VIMOS VLT Deep Survey: star formation rate density of Ly{$\alpha$} emitters from a sample of 217 galaxies with spectroscopic redshifts 2 {\le} z {\le} 6.6}",
+  journal = {\aap},
+archivePrefix = "arXiv",
+   eprint = {1003.3480},
+ primaryClass = "astro-ph.CO",
+ keywords = {cosmology: observations, galaxies: fundamental parameters, galaxies: evolution, galaxies: formation},
+     year = 2011,
+    month = jan,
+   volume = 525,
+    pages = {A143+},
+      doi = {10.1051/0004-6361/201014410},
+   adsurl = {http://adsabs.harvard.edu/abs/2011A%26A...525A.143C},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+Most of this is self-explanatory.  It should be mentioned that the text coming directly after
+@ARTICLE{ is the name you will use in the LaTeX file to reference that paper using the \cite{}
+command.  So, how do you easily generate these bibTeX entries?  ADS does it for you!  Navigate to
+the ADS page of the paper you want to reference and click the link called "Bibtex entry for this
+abstract" (it is directly after the abstract).  Copy/paste it into your database file and you're
+done.
+
+
+Setting up for BibTeX
+=====================
+Before you begin editing your LaTeX file, be sure you have the correct bibTeX style file either in
+the current working directory or in LaTeX's path.  The ApJ file can be found here:
+http://ads.harvard.edu/pubs/bibtex/astronat/apj/apj.bst.  Other journals will have different .bst
+files.  The first thing you need to do in your LaTeX file is add the following three lines after
+your \documentclass statement:
+
+\usepackage{natbib}
+\bibliographystyle{apj}
+\citestyle{aa}
+
+
+Citations
+=========
+Next, you can add citations to your work. There are various \cite* commands, however the two I use
+are \citet and \citep (\citealt and \citealp do not put any parentheses in at all).  The only
+difference is where the parentheses are placed. For example (using the bibTeX entry above):
+
+\citet{2011A&A...525A.143C}
+   Cassata et al. (2011)
+
+\citep{2011A&A...525A.143C}
+   (Cassata et al. 2011)
+
+Note that adding a * (such as \citet* or \citep*) will display all of the authors instead of et
+al'ing.  Also, you can have multiple citations in the same \cite command by seperating them with
+commas.  You can add text before and after a citation with the bracket commands.  The first [ ]
+corresponds to leading text, the second [ ] corresponds to trailing text (note with only one
+bracket, it will be at the end):
+
+\citep[see][]{2011A&A...525A.143C}
+   (see Cassata et al. 2011)
+
+\citep[see][p. 64]{2011A&A...525A.143C}
+   (see Cassata et al. 2011, p. 64)
+
+\citep[hereafter C2011]{2011A&A...525A.143C}
+   (Cassata et al. 2011, hereafter C2011)
+
+There are also specialized commands:
+
+\citeauthor{2011A&A...525A.143C}
+   Cassata et al.
+
+\citeyear{2011A&A...525A.143C}
+   2011
+
+\citeyearpar{2011A&A...525A.143C}
+   (2011)
+
+
+Bibliography
+============
+Now we let the power of bibTeX shine and have it generate the entire bibliography.  It will only
+generate entries if it has cited them in the text of the document and it will always arrange them
+in alphabetical order.  To generate the bibliography, use (assuming we named the database file
+refs.bib):
+
+\bibliography{refs}
+
+
+Generating the Final File
+=========================
+Just a quick note, ALWAYS process your files twice so the references can all cross-reference each
+other. Never generate it only once.
+
+
+A Quick Note about TeXShop for Mac OS
+=====================================
+As of Version 2.41 of TeXShop, the above prescription may or may not work.  When one tries to
+compile the bibliography (command + Shift + B) there may be an error message stating that no
+\citation commands were found.  This can be rectified by pasting anywhere in your code (using the
+above example):
+
+\nocite{2011A&A...525A.143C}
+
+This will tell TeXShop to look for that reference, but it will never actually print anything.
+You must do this for all references you make in your paper.  What I do is use bibdesk to maintain
+my references, and each time I need to cite a paper, I first paste it in the paper where I need it,
+and then paste the same thing in another text document.  After I finish writing the paper, I do a
+search and replace command to turn \cite into \nocite, and insert it into my paper.  I recommend
+putting it after your \bibliography command but it's up to the user. After that do a command + T,
+command + Shift + B, then command + T (2x) and it should work.
+
+
+Bibliography management
+=======================
+There are numerous BibTex database management solutions (Papers, BibDesk, etc.).  BibDesk ships
+with TexShop, so is a commonly used package for Mac users. J. Sick has developed an Applescript
+for automating the addition of bibliographies to your database, as well as automatically
+downloading the PDF of the paper.  Current page: [1] Old page: [2].
+
+This page was last modified on 29 November 2011, at 21:39.
+This page has been accessed 941 times.
+Content is available under Public Domain.
+Privacy policyAbout MaheleDisclaimers
+
+hawaii.edu/
+
+
+Links
+=====
+How to Use BibTeX
+LaTeX/Bibtex
+http://webcache.googleusercontent.com/search?hl=en&q=cache:EeOEB21k71EJ:http://www.ifa.hawaii.edu/~gradrep/wiki/index.php/LaTeX/Bibtex%2Blatex+\citation&gbv=2&gs_l=heirloom-hp.3..0l10.1570.4832.0.5344.15.15.0.0.0.0.136.1591.7j8.15.0...0.0...1ac.1.NnFGGSwwHKk&ct=clnk
+http://www.ifa.hawaii.edu/~gradrep/wiki/index.php/LaTeX/Bibtex
+  (University of Hawai'i Institute of Astronomy login required)
