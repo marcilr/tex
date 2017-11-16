@@ -12,13 +12,16 @@ add-unnumbered-sections-to-toc.txt
   Adding unnumbered sections to TOC
 
 bibtex/
-  Use of BibTeX for generating a bibliography.
+  Use of BibTeX for generating a bibliography
 
 bold.txt
-  Bold text in LaTeX.
+  Bold text in LaTeX
+
+books.txt
+  LaTeX books
 
 endnotes.txt
-  Endnotes in LaTeX.
+  Endnotes in LaTeX
 
 epslatex/
   Using Imported Graphics in LaTeX2e
