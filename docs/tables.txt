@@ -1,0 +1,44 @@
+tables.txt
+Created Mon Dec 24 17:51:16 AKST 2012
+Copyright (C) 2012 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+
+Creating Tables with LaTeX
+Tables are created using the "table" environment given below:
+
+  \begin{table}[where]
+    table
+  \end{table}
+
+In the above syntax, table stands for the contents of the "tabular"
+environment together with a possible \caption command. The argument
+where specifies the allowed locations for the table.  For example,
+when \begin{table}[t] is typed, it means that the table will appear
+on the top of the page.
+
+maths.leeds.ac.uk/
+
+
+Center table
+============
+Use \centering line:
+
+  \begin{table}[where]
+  \centering
+    table
+  \end{table}
+
+
+
+Filelist
+========
+00LATEX/pdf/TableHelp1.pdf
+  Creating Tables with LaTeX
+  http://www1.maths.leeds.ac.uk/latex/TableHelp1.pdf
+
+
+Links
+=====
+Creating Tables with LaTeX
+http://www1.maths.leeds.ac.uk/latex/TableHelp1.pdf
