@@ -1,0 +1,62 @@
+footnotes.txt
+Created Thu Apr 26 14:48:54 AKDT 2012
+Copyright (C) 2012 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Footnotes in LaTeX
+
+
+Footnotes can be produced in one of two ways.  They can be
+produced with one command, the \footnote command.  They can
+also be produced with two commands, the \footnotemark and 
+the  \footnotetext commands.  See the specific command for
+information on why you would use one  over the other. 
+
+
+\footnote
+=========
+\footnote[number]{text}
+
+The \footnote command places the numbered footnote text at
+the bottom of the current page.  The optional argument,
+number, is used to change the default footnote number.
+This command can only be used in outer paragraph mode.
+
+
+\footnotemark
+=============
+\footnotemark
+
+The \footnotemark command puts the footnote number in the
+text.  This command can be used in inner paragraph mode.
+The text of the footnote is supplied by the \footnotetext
+command. 
+
+
+\footnotetext
+=============
+ \footnotetext[number]{text}
+
+The \footnotetext command produces the text to be placed
+at the bottom of the page.  This command can come anywhere
+after the \footnotemark command.  The \footnotetext command
+must appear in outer paragraph mode.
+
+The optional argument, number, is used to change the default
+footnote number. 
+
+
+www.personal.ceu.hu/
+
+
+Filelist
+========
+00PROJ/dvr/requirements/requirements.tex
+  Made good use of \footnotetext[num], \footnotetext[num]{text}, and
+  \addtocounter{footnote}{num} to set foornote counter.
+
+
+Links
+=====
+LaTeX Footnotes
+http://www.personal.ceu.hu/tex/footnote.htm
