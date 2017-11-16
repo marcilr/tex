@@ -1,0 +1,11 @@
+INSTALL
+Created Thu Aug  4 08:19:48 AKDT 2011
+by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Debian Squeeze 6.0.2 package:
+
+texlive - TeX Live: A decent selection of the TeX Live packages
+  substitute tetex with texlive for Debian squeeze
+  http://kanis.fr/hgrss/230.html
+  http://packages.debian.org/squeeze/texlive
