@@ -2,9 +2,10 @@ README
 Created Mon Oct 31 15:34:17 AKST 2005
 by Raymond E. Marcil
 
-Source files for:
 
-LaTeX for Word Processor Users version 1.0.6
+Source files for:
+  LaTeX for Word Processor Users
+  version 1.0.6 - December 9, 2003
   by Guido Gonzato, Ph.D.
 
 Nice document found reference at:
@@ -12,3 +13,24 @@ Nice document found reference at:
 
 Downloaded from:
   http://ftp.ktug.or.kr/tex-archive/info/latex4wp/?C=M;O=A
+
+
+Filelist
+========
+build.xml
+dat2tex
+exa.sty
+gnuplot.gp
+gnuplot.pdf
+gnuplot.ps
+latex4wp.pdf
+latex4wp.tex
+midifile.mid
+new.tex
+README
+small.eps
+small.fig
+small.pdf
+tbx.eps
+tbx.pdf
+tbx.tex
