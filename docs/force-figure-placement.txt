@@ -1,0 +1,37 @@
+force-figure-placement.txt
+Created Thu Dec 20 17:41:25 AKST 2012
+Copyright (C) 2012 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+To force the figure placement in text, i.e. not float around,
+use [ht] with figure.
+
+For example in 00PROJ/dvr/requirements/requirements.tex:433
+
+\begin{center}
+\begin{figure}[ht]
+\begin{quote}
+\small
+\begin{Verbatim}[frame=none]
+Roku 2 XS player               $99.99
+Instant Replay Remote           $9.99
+6 ft. HDMI cable                $9.99
+2 GB MicroSD Card for Roku 2    $4.99
+ground shipping                 $0.00
+                      ---------------
+                      Total:  $124.94
+
+2x $124.94 = $249.88
+\end{Verbatim}
+\normalsize
+\end{quote}
+\caption{Roku 2 XS order}
+\label{fig:dirlayout}
+\end{figure}
+\end{center}
+
+
+Links
+=====
+Force figure placement in text
+http://tex.stackexchange.com/questions/8625/force-figure-placement-in-text
