@@ -1,0 +1,152 @@
+<html><head>
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type">
+<meta content="HRL, Emacs" name="generator">
+<meta content="ian -at- manicai -dot- net (Ian
+ Glover)" name="author">
+<link href="css/manicai.css" type="text/css" rel="stylesheet"><title>LaTeX Tricks</title></head>
+
+<body>
+<p class="header">Manicai.net</p>
+<p class="links">
+<a href="http://www.manicai.net/">Home</a> &gt;
+<a href="http://www.manicai.net/comp/">Computing</a>
+<a href="http://www.manicai.net/comp/latex/">LaTeX</a>
+</p>
+<h1>LaTeX Tricks</h1>
+<p>LaTeX is capable of most things but not always in the most obvious
+manner. Here are some useful tricks that you might struggle to find in
+the documentation. I'm not trying to teach you LaTeX there are two
+routes to that 1) read Lamport's book (or something similar) and 2)
+deconstruct other peoples documents and then try writing your own.</p>
+<ul>
+<li><a href="#programs">Dynamically including program listings</a>
+</li><li><a href="#rotate">Rotating Figures and Tables</a>
+</li><li><a href="#maths">Maths Tricks</a>
+</li><li><a href="#wordcount">Wordcounting a LaTeX file</a>
+</li></ul>
+<a name="programs"><h3>Dynamically Including Program Listings</h3></a>
+You have written the perfect program <em>wonderful.cc</em> and want to
+include it your report. Well you could do
+<pre>\begin{verbatim}
+-- Copy and paste your program to here --
+\end{verbatim}
+</pre>
+However what happens when you suddenly find that your program has a
+bug or would be even better with some tweak. Then you would have to
+delete the copy from your report and repaste the new version. In
+preference you can use the <em>verbatim</em> package. This allows you
+to have a file printed in verbatim format (ie. looking like a
+typewriter) at the chosen point of your report.
+At the head of your document (somewhere before
+<pre>\begin{document}</pre> put the line
+<pre>\usepackage{verbatim}
+</pre>
+Then in the relevant location put
+<pre>\verbatiminput{/hame/perfect/wonderful.cc}
+</pre>
+Now if you change your program rerun LaTeX will produce your report
+with the updated program.
+<a name="rotate"><h3>Rotating Tables and Figures</h3></a>
+<p>You want to include the amazing results that you achieve with the
+program you wrote. No problem, just put them in a table. Unfortunately
+with all the conditions and outputs that you need to include you find
+that the table is to wide for the page. You need to find a way to show
+it in landscape format whilst leaving the rest of your document
+alone. Enter the <em>rotating</em> package. As before put
+</p><pre>\usepackage{rotating}
+</pre>
+in the head of your document. This allows you to rotate text, tables
+and figures in every manner that your liable to want. To create the
+table use the <tt>sidewaystable</tt> instead of <tt>table</tt>. For
+example (lifted from the file rotating.tex in the package documentation).
+<pre>\begin{sidewaystable}
+\centering
+\begin{tabular}{|llllllllp{1in}lp{1in}|}
+\hline
+Context   &amp;Length   &amp;Breadth/   &amp;Depth   &amp;Profile   &amp;Pottery   &amp;Flint   &amp;Animal   &amp;Stone   &amp;Other    &amp;C14 Dates \\
+  &amp;         &amp;Diameter   &amp;        &amp;          &amp;          &amp;        &amp; 
+Bones&amp;&amp;&amp;\\
+\hline
+&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;\\
+\multicolumn{10}{|l}{\bf Grooved Ware}&amp;\\
+784 &amp;---   &amp;0.90m &amp;0.18m &amp;Sloping U &amp;P1    &amp;$\times$46  &amp;  $\times$8  &amp;&amp;$\times$2 bone&amp;  2150$\pm$ 100 BC\\
+785 &amp;---   &amp;1.00m &amp;0.12  &amp;Sloping U &amp;P2--4 &amp;$\times$23  &amp;  $\times$21 &amp; Hammerstone &amp;---&amp;---\\
+962 &amp;---   &amp;1.37m &amp;0.20m &amp;Sloping U &amp;P5--6 &amp;$\times$48  &amp;  $\times$57* &amp; ---&amp;     ---&amp;1990 $\pm$ 80 BC (Layer 4) 1870 $\pm$90 BC (Layer 1)\\
+983 &amp;0.83m &amp;0.73m &amp;0.25m &amp;Stepped U &amp;---   &amp;$\times$18  &amp;  $\times$8 &amp; ---&amp; Fired clay&amp;---\\
+&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;\\
+\multicolumn{10}{|l}{\bf Beaker}&amp;\\
+552 &amp;---   &amp;0.68m &amp;0.12m &amp;Saucer    &amp;P7--14 &amp;---        &amp; --- &amp; --- &amp;--- &amp;---\\
+790 &amp;---   &amp;0.60m &amp;0.25m &amp;U         &amp;P15    &amp;$\times$12 &amp; --- &amp; Quartzite-lump&amp;--- &amp;---\\
+794 &amp;2.89m &amp;0.75m &amp;0.25m &amp;Irreg.    &amp;P16    $\times$3   &amp; --- &amp; --- &amp;--- &amp;---\\
+\hline
+\end{tabular}
+ 
+\caption[Grooved Ware and Beaker Features, their Finds and Radiocarbon
+Dates]{Grooved Ware and Beaker Features, their Finds and Radiocarbon
+Dates; For a breakdown of the Pottery Assemblages see Tables I and
+III; for the Flints see Tables II and IV; for the Animal Bones see
+Table V.}\label{rotfloat2} \end{sidewaystable} </pre> This method puts
+the table on a page on it's own. This is probably what you want if
+your table is that wide. If however you don't want it on a separate
+page this can be achieved using the <tt>sideways</tt> and
+<tt>rotcaption</tt> in conjunction with the standard <tt>table</tt>
+command. See the examples file
+(/usr/local/tex/texmf/doc/latex/rotating/examples.tex on my system)
+for details.<p></p>
+<p>There are a couple of points worth noting. The table will not
+appear rotated when you look at the resultant dvi file. You need to
+convert it to postscript to see it. This happens automatically when
+you print it but should you want to preview it use the command
+<tt>dvips [filestem] -o</tt>. So for the file <tt>report.dvi</tt>
+enter <tt>dvips report -o</tt>. The other is that if you intend to
+print the final report two sided then it if you include
+<tt>twoside</tt> in the document class definition then the table should
+be oriented the correct way depending on whether the page is odd or
+even. So for example
+</p><pre>\documentclass[a4paper,12pt,twoside]{article}
+</pre>
+<p>The command <tt>sidewaysfigure</tt> works similarly. If you use the
+<tt>epsfig</tt> package to include eps files then there is another
+method for rotating the diagram without changing the caption. This can
+be achieved by, for example:
+</p><pre>\begin{figure}[hbtp]
+  \begin{center}
+    \epsfig{figure=test.eps, angle=67}
+    \caption{Test}
+    \label{fig:test}
+  \end{center}
+\end{figure}
+</pre>
+<a name="maths"><h3>Maths Tricks</h3></a>
+<p>If you have to type much in the way of maths it is worth
+investigating the AMS-LaTeX packages. Being designed by the American
+Mathematical Society they cover pretty much anything you are ever
+likely to need if it isn't provided by the standard LaTeX
+commands. There is very full documentation should be available on your
+system (/usr/local/tex/texmf/doc/latex/amslatex/amsldoc.dvi on my
+installation).</p>
+<p>If you have tried to include text in an equation environment then
+you'll have found that the result is italicised and there are no
+spaces (unless you explicitly include them). The best way to do this
+is to use the <em>amstext</em> package (so
+<tt>\usepackage{amstext}</tt>) and then you can write
+</p><pre>$f(x)=\sum_{n&gt;o}{\frac{x}{n^2}}=3 \text{ if the moon is full and } x &lt; 5$
+</pre>
+and other such pearls of wisdom. If you need a maths symbol and don't
+know it or have the manual handy look at the file
+<tt>/hame/iangl/public/latex_maths.dvi</tt> which includes most of
+them (I think).<p></p>
+<a name="wordcount"><h3>Doing wordcounts</h3></a>
+<p>There is no particularly good way (that I know of) to do wordcounts
+of a LaTeX document. However within certain limits (which you'd have
+to be particularly obtuse to violate) the following works reasonably.
+</p><pre>detex [filename] | wc -w
+</pre>
+And that's all folks.
+<hr>
+<address>
+</address><table border="0" cellpadding="0" cellspacing="0">
+<tbody><tr><td>ian</td><td>@</td><td>manicai</td><td>.net</td>
+</tr></tbody></table>
+
+<p></p><p></p><p></p></body></html>
