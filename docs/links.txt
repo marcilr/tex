@@ -1,0 +1,32 @@
+links.txt
+Created Mon Nov 12 13:49:47 AKST 2012
+Copyright (C) 2012 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+LaTeX documentation related links
+
+
+Links
+=====
+Books about TeX and Friends
+Great book references.  Fine list of books by Donald E. Knuth.
+http://www.tug.org/books/
+
+Latex Basics for Students
+http://www.cs.nyu.edu/~yap/student/LatexBasics.html
+
+LaTeX/Tables
+http://en.wikibooks.org/wiki/LaTeX/Tables
+
+LaTeX PDF Package Manuals and Guides
+http://www-control.eng.cam.ac.uk/~pcr20/latex/index.html
+
+LaTeX Resources
+Has Leslie Lamport's The LaTeX User's guide and Regerence Manual.
+http://math.uci.edu/icamp/computing/latex/
+
+PDF files are availabl in Postscipt or DVI format.
+http://www.ctan.org/
+
+What's the difference: {hsize, linewidth, textwidth, pagewidth}?
+http://stackoverflow.com/questions/3110943/whats-the-difference-hsize-linewidth-textwidth-pagewidth
