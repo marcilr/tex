@@ -7,13 +7,15 @@ Bold text
 
 To create bold text in LaTeX use {\bf text}.
 
-E.g., in the output sequence ``Hello World!'', if you wish the word ``Hello'' to be in bold font,
-your latex file will contain the sequence
+E.g., in the output sequence ``Hello World!'', if you wish
+the word ``Hello'' to be in bold font, your latex file will
+contain the sequence
   
   {\bf Hello} World!
 
-Note that \bf is a latex command to change the font to bold face.  The curly brackets {...} is
-latex's way of isolating the context of the bold face. 
+Note that \bf is a latex command to change the font to bold
+face.  The curly brackets {...} is latex's way of isolating
+the context of the bold face. 
 
 cs.nyu.edu/
 
