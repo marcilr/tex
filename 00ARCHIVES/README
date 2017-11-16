@@ -8,3 +8,6 @@ Filelist
 svn_ext_val.txt
   List of repo hierarchical directories to checkout under latex/
 
+svn_ext_val.txt-2
+  List of repo hierarchical directories to checkout under latex/
+
