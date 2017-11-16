@@ -12,6 +12,8 @@ footnotes.txt
 
 footnotes-in-captions.txt
   Footnotes in captions
+  Use of footnotemark{} and \footnotetext{}.
+  http://tex.stackexchange.com/questions/7078/footnotetext-on-different-page-from-footnotemark
 
 links.txt
   Footnote related links
