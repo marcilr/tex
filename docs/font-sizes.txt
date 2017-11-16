@@ -1,0 +1,33 @@
+font-sizes.txt
+Created Mon Mar 22 15:43:13 AKDT 2010
+by Raymond E. Marcil
+
+
+LaTeX: Changing the Font Size
+
+
+Latex provides 10 different font sizes.  To change the size of
+a font use a new font size parameter.  The different font sizes
+are listed below.
+
+Font Sizes
+ 1. \tiny
+ 2. \scriptsize
+ 3. \footnotesize
+ 4. \small
+ 5. \normalsize
+ 6. \large
+ 7. \Large
+ 8. \LARGE
+ 9. \huge
+10. \Huge 
+
+All of these fonts are listed from smallest to largest.
+To change the size of the font use a '\' followed by one
+of the above font sizes before the TEXT you want to change.
+
+
+Links
+=====
+LaTeX: Changing the Font Size
+https://engineering.purdue.edu/ECN/Support/KB/Docs/LaTeXChangingTheFont
