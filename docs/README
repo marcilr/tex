@@ -39,11 +39,6 @@ font-sizes.txt
 footnotes.txt
   Footnotes in LaTeX
 
-footnotes-in-captions.txt
-  Footnotes in captions
-  Use of footnotemark{} and \footnotetext{}.
-  http://tex.stackexchange.com/questions/7078/footnotetext-on-different-page-from-footnotemark
-
 force-figure-placement.txt
   To force the figure placement in text, i.e. not float around, use [ht]
   with figure.
