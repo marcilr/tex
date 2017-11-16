@@ -1,0 +1,85 @@
+body { background: white; }
+
+h1 { background: navy;
+     color: white;
+     font-family: Arial,sans-serif;
+     font-size: 110%;
+     font-weight: normal;
+     padding: 2px;
+     text-align: center; }
+
+h2 { background: white;
+     color: darkblue; }
+
+p { font: Times,serif;
+    text-ident: 5mm; }
+
+p.header { color: black;
+	   background: lightblue;
+	   text-align: right;
+	   font-family: Arial,sans-serif;
+	   font-weight: normal;
+	   font-size: 90%;
+	   padding 2px; } 
+
+p.links { font-family: Arial, sans-serif;
+	  font-size: 75%;
+	  font-weight: normal; }
+
+
+li { padding: 2px }
+
+code { white-space: pre; }
+
+pre.code { 
+   background: antiquewhite; 
+   margin-left: 4em;
+   margin-right: 4em;
+   border-width: 1px;
+   display: block; 
+}
+
+table.code { padding: 1px;
+             width: 100%;
+             font-size: 90%;
+             background-color: gainsboro;
+             white-space: pre; }
+
+blockquote {
+  background-color: lighgrey;
+}
+
+/* Navbar */
+ul#menu {
+  text-align: center;
+  font-family: arial, sans-serif;
+  list-style-type: none;
+  padding: 0.3em;
+  margin: 0;
+  height: 1.2 em;  
+  background-color: lightgrey;
+} * > ul#menu { height: 1.2em; }
+
+#menu li {
+  display: inline;
+  margin: 0;
+  color: white;
+  font: bold arial;
+} * > ul#topNav li { font-size: small; }
+
+#menu li a:link, #menu li a:visited {
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.1em 1em; 
+  margin: 0.1em 0.1em;
+  background-color: lightgrey;
+  color: navy;
+  font-variant: small-caps;
+}
+
+#menu li a:hover {
+  text-decoration: underline;
+  background-color: white;
+  color: navy;
+  font-weight: bold;
+}
