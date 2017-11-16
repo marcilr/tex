@@ -60,6 +60,9 @@ net/
 packages/
   Packages for LaTeX
 
+pdf/
+  Portable Document Format files
+
 php-based-website/
   PHP-based website design & implementation
 
