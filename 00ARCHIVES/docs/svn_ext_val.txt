@@ -1,0 +1,59 @@
+#
+# svn_ext_val.txt
+# Created Mon Nov 12 11:25:08 AKST 2012
+# by Raymond E. Marcil <marcilr@gmail.com>
+#
+
+#
+# List of repo hierarchical directories to checkout under docs/
+#
+# 00TARBALLS/    Tarballs
+# bibtex/        Use of BibTeX to generate bibliography.
+#
+./00TARBALLS     svn+ssh://home/data/svnroot/latex/docs/00TARBALLS/00TARBALLS
+./bibtex         svn+ssh://home/data/svnroot/latex/docs/bibtex/bibtex
+
+
+#
+# List of subversion repositories to checkout under docs/
+#
+# epslatex/       Using Imported Graphics in LaTeX2e
+#                 Version 2.0 - December 15, 1997
+#                 by Keith Reckdahl <reckdahl@am-sun2.stanford.edu>
+#
+# essential/      Essential LaTeX
+#                 U05.04-202, August 2009
+#                 by John Warbrick
+#
+# footnotes/      Footnote tricks.
+#
+# latex_tricks/   LaTeX Tricks
+#                 Some of the decent trick like including program listings, rotating tables and
+#                 figures, math tricks, and word counts.
+#                 http://www.manicai.net/comp/latex/latex_tricks.html
+#
+# latexw4p/       LaTeX for Word Processor Users
+#                 version 1.0.6 - December 9, 2003
+#                 by Guido Gonzato, Ph.D.
+#                 http://www.ctan.org/pkg/latex4wp
+#
+# lshort-3.20/    The Not So Short Introduction to LaTeX2E
+#                 Version 3.20, 09 August, 2001
+#                 by Tobias Oetiker <oetiker@ee.ethz.ch>
+#
+# lshort-4.20/    The Not So Short Introduction to LaTeX2E
+#                 Version 4.20, June 07, 2006
+#                 by Tobias Oetiker <oetiker@ee.ethz.ch>
+#
+# usrguide/       LaTeX2E for authors
+#                 LaTeX3 Project Team
+#                 14 December 1994
+#
+./epslatex        svn+ssh://home/data/svnroot/latex/docs/epslatex
+./essential       svn+ssh://home/data/svnroot/latex/docs/essential
+./footnotes       svn+ssh://home/data/svnroot/latex/docs/footnotes
+./latex_tricks    svn+ssh://home/data/svnroot/latex/docs/latex_tricks
+./latexw4p        svn+ssh://home/data/svnroot/latex/docs/latex4wp
+./lshort-3.20     svn+ssh://home/data/svnroot/latex/docs/lshort-3.20
+./lshort-4.20     svn+ssh://home/data/svnroot/latex/docs/lshort-4.20
+./usrguide        svn+ssh://home/data/svnroot/latex/docs/usrguide
