@@ -1,0 +1,32 @@
+macro-path.txt
+Created Fri Apr 26 08:40:22 AKDT 2013
+Copyright (C) 2013 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Include macros in LaTeX macro path?
+
+
+One of my long outstanding questions is how to pull directories
+with arbitrary macros into the LaTeX macro path for inclusion.
+Seems I've figured this out a couple times.
+
+The commands used to build latex documents are:
+  /usr/bin/bibtex   <=== Process \citation entries for bibliography.
+  /usr/bin/latex    <=== Create dvi from tex
+  /usr/bin/dvips    <=== Create ps from dvi
+  /usr/bin/ps2pdf   <=== Create pdf from ps
+
+
+o Use of TEXINPUTS to specify LaTex's path:
+
+  house/landlord/lease/Makefile:14
+  # NOTE: Use of TEXINPUTS to specify additional directory for style files.
+  LATEX  = export TEXINPUTS=.:../latex:;latex
+
+o Macros can be in the same current working directory as the tex
+  document such as fullpage.sty pulled into the LaTeX document with:
+
+  \usepackage{fullpage}   <== Pull in fullpage.sty from working directory.
+
+o LaTeX macros under standard $(HOME)/texmf/tex/latex/ are pulled in,
+  with no extra effort, by LaTeX build.  Sweet.
