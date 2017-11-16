@@ -7,33 +7,37 @@ Endnotes in LaTeX
 ==================
 June 6, 2006 in LaTeX, Tips
 
-A commonly asked question with an easy answer: how do I use endnotes rather than footnotes in a 
-LaTeX document?
+A commonly asked question with an easy answer: how do I use
+endnotes rather than footnotes in a LaTeX document?
 
 In your document's preamble, invoke the endnotes package:
 
   \usepackage{endnotes}
 
-The endnotes package is included automatically in most LaTeX distributions. To insert a new
-endnote in your document, use the command:
+The endnotes package is included automatically in most LaTeX
+distributions. To insert a new endnote in your document, use
+the command:
 
   \endnote{Text here}
 
-And at the point in your document where you want the endnotes to appear, type:
+And at the point in your document where you want the endnotes
+to appear, type:
 
   \theendnotes
 
-which will insert a list of your endnotes and an automatic heading.
+which will insert a list of your endnotes and an automatic
+heading.
 
 dataninja.wordpress.com/
 
 
 Notes ==> nothing
 =================
-The \endnotes package \theendnotes used to lay down the actual endnotes always places a 
-"Notes" section heading.  No good when you already have an "Endnotes" section.  The
-solution is to use \notesname variagle to change the endnotes section heading.  To change the
-heading to nothing use:
+The \endnotes package \theendnotes used to lay down the actual
+endnotes always places a "Notes" section heading.  No good when
+you already have an "Endnotes" section.  The solution is to use
+\notesname variagle to change the endnotes section heading.
+To change the heading to nothing use:
 
 \vspace{-10 mm}              <== Remove whitespace to get proper spacing.
 \renewcommand{\notesname}{}
@@ -49,14 +53,17 @@ stackexchange.com/
 
 Reset note count
 ================
-You may want separate endnotes for each chapter, or a big block of them at the end of the whole
-document.  Either will work, you just put \theendnotes wherever you want the endnotes so far to
-be inserted, which will insert a list of your endnotes and an automatic heading ("Notes").
-However, you must add \setcounter{endnote}{0} after that if you want subsequent endnotes to start
-numbering at 1 again.
+You may want separate endnotes for each chapter, or a big block
+of them at the end of the whole document.  Either will work, you
+just put \theendnotes wherever you want the endnotes so far to
+be inserted, which will insert a list of your endnotes and an
+automatic heading ("Notes").  However, you must add
+\setcounter{endnote}{0} after that if you want subsequent endnotes
+to start numbering at 1 again.
 
-In 00MANIFESTOS/blackboard/blackboard-manifesto.tex I used \setcounter{endnote}{1} after
-use of \endnotemark[1] to punch up the numbering, to 2, since it did not occur automatically.
+In 00MANIFESTOS/blackboard/blackboard-manifesto.tex I used
+\setcounter{endnote}{1} after use of \endnotemark[1] to punch
+up the numbering, to 2, since it did not occur automatically.
 
 hubpages.com/
 
