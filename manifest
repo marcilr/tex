@@ -29,7 +29,7 @@ ssh://git@github.com/marcilr/bind   bind
 # chroot/ - Documentation of chroot environments for dhcp, dns,
 # and apache.
 #
-ssh://htpc/data/git/tex/chroot   chroot
+ssh://git@github.com/marcilr/chroot
 
 # Create Searchable PDFs
 ssh://htpc/data/git/tex/create-searchable-pdfs   create-searchable-pdfs
