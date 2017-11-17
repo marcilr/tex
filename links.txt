@@ -66,18 +66,9 @@ Damn - Really thought that is was possible to specify another directory
 to import *.sty files from.
 http://stackoverflow.com/questions/5993965/include-sty-file-from-a-super-subdirectory-of-main-tex-file
 
-Producing White Space in LaTeX
-Good whitespace info.
-http://www.maths.tcd.ie/~dwilkins/LaTeXPrimer/WhiteSpace.html
-
-LaTeX Spaces and Boxes
-Commands manipulating horizontal and vertical spaces,
-and holding material in boxes.
-http://www.personal.ceu.hu/tex/spacebox.htm
-
-LaTeX to PDF
-Nice build process diagram and graphics conversion info.
-http://mintaka.sdsu.edu/GF/bibliog/latex/LaTeXtoPDF.html
+LaTeX / BibTeX style files
+Reference to TEXINPUTS and BSTINPUTS
+http://www.insectnation.org/howto/tex
 
 LaTeX/Labels and Cross-referencing
 http://en.wikibooks.org/wiki/LaTeX/Labels_and_Cross-referencing
@@ -91,8 +82,13 @@ http://en.wikibooks.org/wiki/LaTeX/Hyperlinks#.5Chyperref
 LaTeX/Page Layout
 http://en.wikibooks.org/wiki/LaTeX/Page_Layout
 
-LaTeX Footnotes
-http://www.personal.ceu.hu/tex/footnote.htm
+LaTeX Spaces and Boxes
+Commands manipulating horizontal and vertical spaces,
+and holding material in boxes.
+http://www.personal.ceu.hu/tex/spacebox.htm
+
+LaTeX tips and tricks
+http://myitcv.org.uk/latex/tips_and_tricks.html
 
 Lists
 LaTeX provides the following list environments:
@@ -101,16 +97,31 @@ o itemize for un-numbered lists,
 o description for description lists
 http://www.maths.tcd.ie/~dwilkins/LaTeXPrimer/Lists.html
 
+LaTeX to PDF
+Nice build process diagram and graphics conversion info.
+http://mintaka.sdsu.edu/GF/bibliog/latex/LaTeXtoPDF.html
+
 Making endnotes clickable links with hyperref
 Wow, this is a bit tricky.  This is basically a reimplementation
 of hyperendnotes.sty by Ulrich Dirr
 http://tex.stackexchange.com/questions/8452/making-endnotes-clickable-links-with-hyperref
 
-README for hyperref bundle, 2011/09/28
-http://ftp.gwdg.de/pub/ctan/macros/latex/contrib/hyperref/README
+New and Altered Commands
+Reference to \begin{singlespace} and \doublespacing syntax.
+http://amath.colorado.edu/documentation/LaTeX/thesis/docs/LTnewcommands.html
+
+Producing White Space in LaTeX
+Good whitespace info.
+http://www.maths.tcd.ie/~dwilkins/LaTeXPrimer/WhiteSpace.html
+
+Quick and Dirty LaTeX Tutorial
+http://lahelper.sourceforge.net/mini_latex_tutorial.html
 
 Quotation Marks and Dashes
 http://www.maths.tcd.ie/~dwilkins/LaTeXPrimer/QuotDash.html
+
+README for hyperref bundle, 2011/09/28
+http://ftp.gwdg.de/pub/ctan/macros/latex/contrib/hyperref/README
 
 STY
 LaTeX Style Files
