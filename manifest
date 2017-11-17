@@ -32,8 +32,7 @@ ssh://git@github.com/marcilr/bind   bind
 ssh://git@github.com/marcilr/chroot
 
 # Create Searchable PDFs
-ssh://htpc/data/git/tex/create-searchable-pdfs   create-searchable-pdfs
-
+ssh://git@github.com/marcilr/create-searchable-pdfs
 
 #
 # Comprehensive TEX Archive Network
