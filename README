@@ -72,6 +72,9 @@ project-spec/
 storage-analysis/
   Storage Analysis
 
+syntax/
+  Syntax for LaTeX
+
 webdav-exchange/
   WebDAV Access to Exchange
   Whilst this was a good idea, working for UAA ITS
