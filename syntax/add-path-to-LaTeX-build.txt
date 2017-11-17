@@ -1,0 +1,14 @@
+add-path-to-LaTeX-build.txt
+Created Thu Nov 16 16:07:37 AKST 2017
+Copyright (C) 2017 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Add path to LaTeX build
+=======================
+Never got LaTeX's --include-directory=dir command line
+aregument to work.
+
+Added desired macros to path under $(HOME)/texmf/tex/latex/ 
+The macros which are pulled in automatedly found by LaTeX 
+build.  The "/tex/latex/" suffix is required.  Added all macros, 
+except rcs, under 00MACROS/ directory.
