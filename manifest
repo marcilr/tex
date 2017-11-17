@@ -95,6 +95,11 @@ github.com:marcilr/tex-dev-lang      dev/lang
 github.com:marcilr/tex-dev-lang-go   dev/lang/go
 
 #
+# LaTeX Examples
+#
+github.com:marcilr/latex-examples   latex-examples
+
+#
 # John Lion's
 # "A commentary on the Sixth Edition UNIX Operating System".
 # This form of the document was published
