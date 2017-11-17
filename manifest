@@ -23,7 +23,7 @@ ssh://git@github.com/marcilr/backup   backup
 # Bind name server
 # https://wiki.archlinux.org/index.php/BIND#BIND_Resources
 #
-ssh://htpc/data/git/tex/bind   bind
+ssh://git@github.com/marcilr/bind   bind
 
 #
 # chroot/ - Documentation of chroot environments for dhcp, dns,
