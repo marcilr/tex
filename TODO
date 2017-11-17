@@ -4,8 +4,10 @@ Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
 
 
 +++ Fri Nov 17 08:53:38 AKST 2017 - Stubbed out repos that need work:
-  o all-grain-brewing - just a stub
-  o backup - need to complete
+  o all-grain-brewing      - just a stub
+  o backup                 - need to complete
+  o bind                   - just a stub
+  o create-searchable-pdfs - just a stub
 
 +++ Mon Aug  1 13:37:00 AKDT 2016 - Documents to create:
 best o'bash
