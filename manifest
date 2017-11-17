@@ -29,16 +29,16 @@ ssh://git@github.com/marcilr/bind   bind
 # chroot/ - Documentation of chroot environments for dhcp, dns,
 # and apache.
 #
-ssh://git@github.com/marcilr/chroot
+ssh://git@github.com/marcilr/chroot   chroot
 
 # Create Searchable PDFs
-ssh://git@github.com/marcilr/create-searchable-pdfs
+ssh://git@github.com/marcilr/create-searchable-pdfs   create-searchable-pdfs
 
 #
 # Comprehensive TEX Archive Network
 # http://www.ctan.org/
 #
-ssh://htpc/data/git/tex/ctan   ctan
+ssh://git@github.com/marcilr/ctan   ctan
 
 #
 # Notes on Branches in CVS
