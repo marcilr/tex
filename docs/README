@@ -102,6 +102,9 @@ macro-path.txt
   with arbitrary macros into the LaTeX macro path for inclusion.
   Seems I've figured this out a couple times.
 
+math.txt
+  Math
+
 qtree.txt
   A nice structure for displaying tree like graph structures in
   the gis project-spec.tex doc for displaying a directory hierarchy
