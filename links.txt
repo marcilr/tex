@@ -1,16 +1,142 @@
 links.txt
-Created Sat Jun  3 20:30:55 AKDT 2017
-Copyright (C) 2017 by Raymond E. Marcil <marcilr@gmail.com>
+Created Thu Aug  4 15:38:27 AKDT 2011
+by Raymond E. Marcil <marcilr@gmail.com>
 
 
-TeX related links
+LaTeX related links
 
 
 Links
 =====
+18. How can you get custom page headers and footers?
+http://www.kronto.org/thesis/tips/custom-headers.html
+
+Compiling the sample LaTeX document
+http://amath.colorado.edu/documentation/LaTeX/basics/how_sample.html
+
+csv2latex 0.12-3 (Default)
+csv2latex is a file format converter that converts any kind of CSV
+file (e.g. as exported by gnumeric, OOo, Excel, etc.) to the LaTeX
+document format using the tabular environment.
+http://freshmeat.net/projects/csv2latex/?branch_id=39663&release_id=293115
+http://brouits.free.fr/csv2latex/
+http://ppa.launchpad.net/[..]main/c/csv2latex/csv2latex_0.12-3.tar.gz
+
+Document Style / Document Class
+In LaTeX2, the very first command of a documents is \documentclass.
+This replaces the LaTeX2.09 command \documentstyle.
+http://www.public.asu.edu/~rjansen/latexdoc/ltx-22.html
+
+Donald E. Knuth
+http://www-cs-faculty.stanford.edu/~knuth/
+
+Endnotes in LaTeX
+http://dataninja.wordpress.com/2006/06/06/endnotes-in-latex/
+
+Footnotes AND Endnotes
+LaTeX Users Group
+http://groups.google.com/group/latexusersgroup/browse_thread/thread/b06abf2c345b33d7
+
 GrindEQ
 LaTex to docx
 http://www.grindeq.com/
 
+Hypertext marks in LATEX: a manual for hyperref
+Sebastian Rahtz, Heiko Oberdiek
+April 2012
+http://www.tug.org/applications/hyperref/manual.html
+
+Include *.sty file from a super/subdirectory of main *.tex file
+1. If you have it in your path or in the same folder as the .tex file,
+   simply include this line in your preamble: \usepackage{mystyle}
+2. If you have it in a different folder, you can access using its full
+   path as \usepackage{/path/to/folder/mystyle}
+Damn - Really thought that is was possible to specify another directory
+to import *.sty files from.
+http://stackoverflow.com/questions/5993965/include-sty-file-from-a-super-subdirectory-of-main-tex-file
+
+Producing White Space in LaTeX
+Good whitespace info.
+http://www.maths.tcd.ie/~dwilkins/LaTeXPrimer/WhiteSpace.html
+
+LaTeX Spaces and Boxes
+Commands manipulating horizontal and vertical spaces,
+and holding material in boxes.
+http://www.personal.ceu.hu/tex/spacebox.htm
+
+LaTeX to PDF
+Nice build process diagram and graphics conversion info.
+http://mintaka.sdsu.edu/GF/bibliog/latex/LaTeXtoPDF.html
+
+LaTeX/Labels and Cross-referencing
+http://en.wikibooks.org/wiki/LaTeX/Labels_and_Cross-referencing
+
+LaTeX/Hyperlinks
+LaTeX enables typesetting of hyperlinks, useful when the resulting
+format is PDF, and the hyperlinks can be followed.  It does so
+using the package hyperref.
+http://en.wikibooks.org/wiki/LaTeX/Hyperlinks#.5Chyperref
+
+LaTeX/Page Layout
+http://en.wikibooks.org/wiki/LaTeX/Page_Layout
+
+LaTeX Footnotes
+http://www.personal.ceu.hu/tex/footnote.htm
+
+Lists
+LaTeX provides the following list environments:
+o enumerate for numbered lists,
+o itemize for un-numbered lists,
+o description for description lists
+http://www.maths.tcd.ie/~dwilkins/LaTeXPrimer/Lists.html
+
+Making endnotes clickable links with hyperref
+Wow, this is a bit tricky.  This is basically a reimplementation
+of hyperendnotes.sty by Ulrich Dirr
+http://tex.stackexchange.com/questions/8452/making-endnotes-clickable-links-with-hyperref
+
+README for hyperref bundle, 2011/09/28
+http://ftp.gwdg.de/pub/ctan/macros/latex/contrib/hyperref/README
+
+Quotation Marks and Dashes
+http://www.maths.tcd.ie/~dwilkins/LaTeXPrimer/QuotDash.html
+
+STY
+LaTeX Style Files
+http://people.sc.fsu.edu/~jburkardt/latex/sty/sty.html
+
+The endnotes package
+Damn google.
+ftp://ctan.tug.org/tex-archive/macros/latex/.../endnotes/endnotes.pdf
+
+The LaTeX endnotes package 82
+http://jimsheng.hubpages.com/hub/The-LaTeX-endnotes-package
+
+The LaTeX endnotes package 83
+Great history of endnotes package.
+Fine usage info.
+http://jimsheng.hubpages.com/hub/The-LaTeX-endnotes-package
+
+Welcome to the TeX Users Group web site
+The TeX Users Group (TUG) was founded in 1980 to provide an
+organization for people who are interested in typography and
+font design, and/or are users of the TeX typesetting system
+invented by Donald Knuth. 
+http://www.tug.org/
+
 TeX Live 2017 released
 https://www.tug.org/texlive/
+
+Translate (localise) \theendnotes heading
+Use \renewcommand{\notesname}{Anmerkungen} to change section
+heading displayed by \theendnotes{} Can be set to nothing with:
+\renewcommand{\notesname}{}
+http://tex.stackexchange.com/questions/24877/translate-localise-theendnotes-heading
+
+Useful stuff I have learned
+o How to set the depth of the table of contents
+o Fonts
+o Some font stuff that is usually in my latex preambles
+o Non-Italicized Greek Letters 
+o Credits
+http://www.mit.edu/people/lucylim/latex.html
