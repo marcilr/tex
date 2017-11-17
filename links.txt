@@ -11,6 +11,17 @@ Links
 18. How can you get custom page headers and footers?
 http://www.kronto.org/thesis/tips/custom-headers.html
 
+A collection of simple TeX and LaTeX document templates by Michael Stutz.
+Some nice templates for article, envelope, fax, label, letter, and manuscript.
+From "Indie" Research Paper link.
+TODO: Merge to latex directory?
+http://dsl.org/comp/templates/
+
+Best Way To Publish an "Indie" Research Paper? on Thursday June 24, @02:00PM
+Posted by timothy on Thursday June 24, @02:00PM
+Some good latex templates on this page.
+http://ask.slashdot.org/story/10/06/24/1739247/Best-Way-To-Publish-an-Indie-Research-Paper
+
 Compiling the sample LaTeX document
 http://amath.colorado.edu/documentation/LaTeX/basics/how_sample.html
 
