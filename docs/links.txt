@@ -28,5 +28,11 @@ http://math.uci.edu/icamp/computing/latex/
 PDF files are availabl in Postscipt or DVI format.
 http://www.ctan.org/
 
+StackExchange
+TeX - LaTeX Stack Exchange is a question and answer site for users
+of TeX, LaTeX, ConTeXt, and related typesetting systems. 
+Why use .sty files?
+https://tex.stackexchange.com/questions/91167/why-use-sty-files
+
 What's the difference: {hsize, linewidth, textwidth, pagewidth}?
 http://stackoverflow.com/questions/3110943/whats-the-difference-hsize-linewidth-textwidth-pagewidth
