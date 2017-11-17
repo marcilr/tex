@@ -105,12 +105,7 @@ macro-path.txt
 math.txt
   Math
 
-qtree.txt
-  A nice structure for displaying tree like graph structures in
-  the gis project-spec.tex doc for displaying a directory hierarchy
-  put could be used for other tree-link graph structures.
-
-tables.txt
+	tables.txt
   Creating Tables with LaTeX
   http://www1.maths.leeds.ac.uk/latex/TableHelp1.pdf
 
