@@ -1,0 +1,33 @@
+modify-LaTeX-search-path.txt
+Created Thu Nov 16 16:45:06 AKST 2017
+Copyright (C) 2017 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+How do I modify the LaTeX search path to include
+directories that contain my own .{cls,sty} files?
+=================================================
+Under Linux/UNIX, set the TEXINPUTS environment variable. TEXINPUTS is the search path for
+resource files including graphics, packages and document classes.
+
+
+  # ** IMPORTANT **
+  #
+  # The trailing colon indicates the standard search
+  # path should be appended to the user specified
+  # TEXINPUT variable
+
+  # Paths are ':' separated
+  export TEXINPUTS=".:~/path/to/add:"
+  export TEXINPUTS=".:~/path/to/add:/second/path/to/add:"
+
+  # Trailing '/' for directories is optional
+  export TEXINPUTS=".:~/path/to/add/:"
+
+  # double trailing slash indicates this directory is
+  # to be search recursively
+  export TEXINPUTS=".:~/path/to/add//:"
+
+Note: the commands shown are for setting environment variables within the Bash shell. Use setenv
+(check invocation in man pages) for the Tcsh shell.
+--myitcv.org.uk/
+
