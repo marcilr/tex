@@ -5,6 +5,9 @@ Copyright (C) 2017 by Raymond E. Marcil <marcilr@gmail.com>
 
 Filelist
 ========
+macros.txt
+  Macros
+
 macro-path.txt
   Include macros in LaTeX macro path?
 
