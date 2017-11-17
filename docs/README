@@ -95,12 +95,8 @@ lshort-4.20/
   by Tobias Oetiker <oetiker@ee.ethz.ch>
   Version 4.20, June 07, 2006
 
-macro-path.txt
-  Include macros in LaTeX macro path?
-
-  One of my long outstanding questions is how to pull directories
-  with arbitrary macros into the LaTeX macro path for inclusion.
-  Seems I've figured this out a couple times.
+macros/
+  Macros
 
 math.txt
   Math
