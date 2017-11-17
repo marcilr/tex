@@ -42,3 +42,10 @@ Latex_reference.pdf
   Addison-Wesley Publishing Company
   ISBN: 0-201-52983-1
   http://math.uci.edu/icamp/computing/latex/Latex_reference.pdf
+
+
+Links
+=====
+Books about TeX and Friends
+Some great Knuth books for sale.
+http://www.tug.org/books/
