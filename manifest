@@ -48,19 +48,12 @@ ssh://htpc/data/git/tex/ctan   ctan
 #
 ssh://htpc/data/git/tex/cvs-branches   cvs-branches
 
-#
-# Development
-#
-github.com:marcilr/tex-dev   dev
-
-# Forex
-ssh://htpc/data/git/tex/forex   forex
-
 
 #
 # GCI Network Services, OSS
 #
 ssh://htpc/data/git/tex/gci   gci
+
 
 #
 # git revision control
@@ -87,12 +80,6 @@ ssh://htpc/data/git/tex/gci   gci
 #ssh://htpc/data/git/tex/git/tex/repositories/commands            git/tex/repositories/commands
 #ssh://htpc/data/git/tex/git/tex/repositories/ssh                 git/tex/repositories/ssh
 
-
-#
-# Languages
-#
-github.com:marcilr/tex-dev-lang      dev/lang
-github.com:marcilr/tex-dev-lang-go   dev/lang/go
 
 #
 # LaTeX Examples
