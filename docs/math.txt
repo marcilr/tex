@@ -8,6 +8,10 @@ Math
 
 Links
 =====
+Getting to Grips with Latex - Mathematics
+Good mathematics syntax.
+http://www.andy-roberts.net/misc/latex/latextutorial9.html
+
 LaTeX Lesson 5
 Typesetting Math in LaTeX
 Some good spacing info.
