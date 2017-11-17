@@ -42,3 +42,12 @@ Links
 =====
 Creating Tables with LaTeX
 http://www1.maths.leeds.ac.uk/latex/TableHelp1.pdf
+
+Getting to Grips with Latex - Tables
+by Andrew Roberts
+Very good table info.
+http://www.andy-roberts.net/misc/latex/latextutorial4.html
+
+LaTeX/Tables
+http://en.wikibooks.org/wiki/LaTeX/Tables
+
