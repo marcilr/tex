@@ -1,0 +1,90 @@
+footnotes-in-tables.txt
+Created Thu Nov 16 16:14:19 AKST 2017
+Copyright (C) 2017 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Footnotes in tables
+
+
+The standard LaTeX \footnote command doesn't work in tables;
+the table traps the footnotes and they can't escape to the
+bottom of the page.
+
+If your table is floating, your best bet is (unfortunately) to put
+the table in a minipage environment and to put the notes underneath
+the table, or to use Donald Arseneau's package threeparttable
+(which implements "ctable notes" proper).
+
+The ctable package extends the model of threeparttable, and also
+uses the ideas of the booktabs package. The \ctable command does
+the complete job of setting the table, placing the caption, and
+defining the notes. The "ctable" may consist of diagrams,
+and a parameter in \ctable's optional argument makes the float
+that is created a "figure" rather than a "ctable".
+--www.tex.ac.uk
+
+
+Q: Footnotes in tables: Using a \footnote command within a
+table gives the footnote superscript, but no footnote text appears.
+A: Put the tabular bit of the table inside a minipage environment:
+
+ \begin{table}[htp]
+ \centering
+ \begin{minipage}{\textwidth}
+ \centering
+ \begin{tabular}{|l|l|l|}
+ ....
+ \end{tabular}
+ \end{minipage}
+ \caption{...}
+ \end{table}
+
+The footnote text is printed under a short line above the
+table's caption. In a 2-column-per-page document, use
+{0.5\textwidth} instead.
+--ethz.ch
+
+
+With quite a bit of experimentation perhaps the best way to
+get footnotes in tables is to use \footnotemark and
+\footnotetext. If course the problem here is that the
+footnote number is not specified it must be tracked
+manually. It does work to get good looking footnotes in
+the tables though.
+
+Used in WRT54Gl-config.tex:
+
+In table:
+\footnotemark[1]
+
+Below table:
+  \footnotetext[1]{Linksys \texttt{wrt54gl-ug.pdf}, p. 6}
+
+"Footnotes in a minipage environment are handled in a way that is
+particularly useful for putting footnotes in figures or tables.
+A \footnote command puts the footnote at the bottom of the minipage
+instead of at the bottom of the page, and it uses the mpfootnote
+counter instead of the ordinary footnote counter. If you want the
+footnote in a minipage environment to be placed at the bottom of
+the actual page, in the usual fashion, use the \footnotemark and
+\footnotetext commands."
+--eng.cam.ac.uk
+
+
+Links
+=====
+ctable.sty
+Package for embedding footnotes in tables.
+Never did get this one to work:(
+http://www.tex.ac.uk/tex-archive/macros/latex/contrib/ctable/
+ftp://cam.ctan.org/tex-archive/macros/latex/contrib/ctable.zip
+
+Footnotes in tables
+http://www.tex.ac.uk/cgi-bin/texfaq2html?label=footintab
+
+Quicktips: Questions & Answers
+http://tikiwiki.ethz.ch/thesis/index.php/Tech/LaTeX
+
+Use of \footnotetext and \footnotemark in minipages.
+http://www.eng.cam.ac.uk/help/tpl/textprocessing/\
+  teTeX/latex/latex2e-html/ltx-267.html
