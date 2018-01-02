@@ -14,31 +14,32 @@
 #
 
 # All Grain Brewing
-ssh://git@github.com/marcilr/all-grain-brewing   all-grain-brewing
+ssh://htpc/data/git/tex/all-grain-brewing   all-grain-brewing
 
 # backup - Script to take datestamped backups.
-ssh://git@github.com/marcilr/backup   backup
+ssh://htpc/data/git/tex/backup   backup
 
 #
 # Bind name server
 # https://wiki.archlinux.org/index.php/BIND#BIND_Resources
 #
-ssh://git@github.com/marcilr/bind   bind
+ssh://htpc/data/git/tex/bind   bind
 
 #
 # chroot/ - Documentation of chroot environments for dhcp, dns,
 # and apache.
 #
-ssh://git@github.com/marcilr/chroot   chroot
+ssh://htpc/data/git/tex/chroot   chroot
 
 # Create Searchable PDFs
-ssh://git@github.com/marcilr/create-searchable-pdfs   create-searchable-pdfs
+ssh://htpc/data/git/tex/create-searchable-pdfs   create-searchable-pdfs
+
 
 #
 # Comprehensive TEX Archive Network
 # http://www.ctan.org/
 #
-ssh://git@github.com/marcilr/ctan   ctan
+ssh://htpc/data/git/tex/ctan   ctan
 
 #
 # Notes on Branches in CVS
@@ -47,12 +48,15 @@ ssh://git@github.com/marcilr/ctan   ctan
 #
 ssh://htpc/data/git/tex/cvs-branches   cvs-branches
 
+#
+# Development
+#
+github.com:marcilr/tex-dev   dev
 
 #
 # GCI Network Services, OSS
 #
 ssh://htpc/data/git/tex/gci   gci
-
 
 #
 # git revision control
@@ -81,6 +85,12 @@ ssh://htpc/data/git/tex/gci   gci
 
 
 #
+# Languages
+#
+github.com:marcilr/tex-dev-lang      dev/lang
+github.com:marcilr/tex-dev-lang-go   dev/lang/go
+
+#
 # LaTeX Examples
 #
 github.com:marcilr/latex-examples   latex-examples
@@ -101,3 +111,6 @@ ssh://htpc/data/git/tex/packages/packages   packages
 # Template for LaTeX
 #
 ssh://htpc/data/git/tex/template   template
+
+# Trading
+ssh://htpc/data/git/tex/trading/trading   trading
