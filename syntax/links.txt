@@ -1,0 +1,20 @@
+links.txt
+Created Thu Jan  4 16:22:48 AKST 2018
+Copyright (C) 2018 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Syntax related links
+
+
+Links
+=====
+Text alignment
+1 Introduction
+2 Using the package ragged2e
+3 Left-justified text
+4 Right-justified text
+5 Centred text
+6 Fully justified text
+7 Reference guide
+8 Further reading
+https://www.sharelatex.com/learn/Text_alignment
