@@ -146,6 +146,9 @@ font design, and/or are users of the TeX typesetting system
 invented by Donald Knuth. 
 http://www.tug.org/
 
+Writing a Simple LaTeX Document
+http://www.electronics.oulu.fi/latex/examples/example_1/
+
 TeX Live 2017 released
 https://www.tug.org/texlive/
 

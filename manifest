@@ -46,7 +46,7 @@ ssh://htpc/data/git/tex/ctan   ctan
 # by James A. Crippen
 # jcrippen@spectrumwireless.com
 #
-ssh://htpc/data/git/tex/cvs-branches   cvs-branches
+ssh://git@github.com/marcilr/cvs-branches   cvs-branches
 
 #
 # Development
