@@ -8,6 +8,9 @@ Filelist
 add-path-to-LaTeX-build.txt
   Add path to LaTeX build
 
+links.txt
+  Syntax related links
+
 modify-LaTeX-search-path.txt
   How do I modify the LaTeX search path to include
   directories that contain my own .{cls,sty} files?
