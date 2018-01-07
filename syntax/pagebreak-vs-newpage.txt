@@ -1,0 +1,22 @@
+pagebreak-vs-newpage.txt
+Created Sun Jan  7 14:48:50 AKST 2018
+Copyright (C) 2018 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+What is the difference between “Page Break” and “New Page”? [duplicate]
+
+If you use \newpage, the page will be directly "cut off" and a new one
+will begin.  The text/paragraphs on the page will not be affected in
+any way. If you do this, you might have a lot of empty space on that page.
+
+With \pagebreak, the paragraphs on the cut page will spread out over
+the page, so you will not have empty space at the bottom.  The old page
+will not look like it is the end of a chapter.
+
+--answered May 29 '10 at 16:25
+  ablaeul
+
+Links
+=====
+What is the difference between “Page Break” and “New Page”? [duplicate]
+https://tex.stackexchange.com/questions/9852/what-is-the-difference-between-page-break-and-new-page
