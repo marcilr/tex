@@ -15,5 +15,9 @@ modify-LaTeX-search-path.txt
   How do I modify the LaTeX search path to include
   directories that contain my own .{cls,sty} files?
 
+pagebreak-vs-newpage.txt
+  What is the difference between “Page Break” and “New Page”? [duplicate]
+  https://tex.stackexchange.com/questions/9852/what-is-the-difference-between-page-break-and-new-page
+
 syntax.txt
   Syntax for LaTex
