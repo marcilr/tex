@@ -24,6 +24,7 @@ ssh://git@github.com:marcilr/dev                      dev
 ssh://git@github.com:marcilr/filexfer                 filexfer
 ssh://git@github.com:marcilr/lang                     lang
 ssh://git@github.com:marcilr/latex-examples           latex-examples
+ssh://git@github.com:marcilr/lions                    lions
 
 
 #
@@ -51,17 +52,6 @@ ssh://git@github.com:marcilr/latex-examples           latex-examples
 #ssh://htpc/data/git/tex/git/tex/repositories/commands            git/tex/repositories/commands
 #ssh://htpc/data/git/tex/git/tex/repositories/ssh                 git/tex/repositories/ssh
 
-
-
-#
-# John Lion's
-# "A commentary on the Sixth Edition UNIX Operating System".
-# This form of the document was published
-# on the USENET alt.folklore.computers newsgroup
-# in May 1994. 
-#
-#ssh://htpc/data/git/tex/lions   lions
-github.com:marcilr/lions   lions
 
 # Packages for LaTeX
 ssh://htpc/data/git/tex/packages/packages   packages
