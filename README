@@ -11,6 +11,10 @@ This directory is meant to hold some latex hint, tricks, etc.
 
 Filelist
 ========
+.gitignore
+  Specifies intentionally untracked files to ignore
+  https://git-scm.com/docs/gitignore
+
 00ARCHIVES/
   Archives
 
