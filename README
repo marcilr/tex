@@ -117,6 +117,9 @@ storage-analysis/
 syntax/
   Syntax for LaTeX
 
+template/
+  Template for LaTeX
+
 webdav-exchange/
   WebDAV Access to Exchange
   Whilst this was a good idea, working for UAA ITS
