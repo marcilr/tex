@@ -9,7 +9,6 @@ LaTeX Repo
 This directory is meant to hold some latex hint, tricks, etc.
 
 
-
 Filelist
 ========
 00ARCHIVES/
@@ -20,25 +19,54 @@ Filelist
 
 all-grain-brewing/
   All Grain Brewing
+  ssh://git@github.com/marcilr/all-grain-brewing
 
 backup/
   Script to take datestamped backups.
+  ssh://git@github.com/marcilr/backup
+
+bind/
+  Bind name server
+  https://wiki.archlinux.org/index.php/BIND#BIND_Resources
+  ssh://git@github.com/marcilr/bind
 
 chroot/
   Documentation of chroot environments for dhcp, dns,
   and apache.
+  ssh://git@github.com/marcilr/chroot
 
 create-searchable-pdfs/
   Create Searchable PDFs
+  ssh://git@github.com/marcilr/create-searchable-pdfs
 
 ctan/
   Comprehensive TEX Archive Network
   http://www.ctan.org/
+  ssh://git@github.com/marcilr/ctan
 
 cvs-branches/
   Notes on Branches in CVS
   by James A. Crippen
   jcrippen@spectrumwireless.com
+  ssh://git@github.com/marcilr/cvs-branches
+
+dev/
+  Development
+  ssh://git@github.com/marcilr/tex-dev
+
+dev/lang/
+  Languages
+
+dev/lang/go
+  Go
+
+filexfer/
+  FileXfer - Automated file transfer jobs
+  ssh://git@github.com/marcilr/filexfer
+
+gci/
+  GCI Network Services, OSS
+  ssh://htpc/data/git/tex/gci
 
 latex/
   LaTeX is a high-quality typesetting system; it
@@ -47,6 +75,10 @@ latex/
   the de facto standard for the communication and
   publication of scientific documents.
   http://www.latex-project.org/
+
+latex-examples/
+  LaTeX Examples
+  github.com:marcilr/latex-examples
 
 links.txt
   TeX related links
