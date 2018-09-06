@@ -14,6 +14,7 @@
 #
 
 ssh://git@github.com/marcilr/all-grain-brewing        all-grain-brewing
+ssh://git@github.com/marcilr/apache                   apache
 ssh://git@github.com/marcilr/backup                   backup
 ssh://git@github.com/marcilr/bind                     bind
 ssh://git@github.com/marcilr/chroot                   chroot
@@ -25,6 +26,8 @@ ssh://git@github.com:marcilr/filexfer                 filexfer
 ssh://git@github.com:marcilr/lang                     lang
 ssh://git@github.com:marcilr/latex-examples           latex-examples
 ssh://git@github.com:marcilr/lions                    lions
+ssh://git@github.com:marcilr/tex-packages             packages
+ssh://git@github.com:marcilr/tex-template             template
 
 
 #
@@ -52,14 +55,6 @@ ssh://git@github.com:marcilr/lions                    lions
 #ssh://htpc/data/git/tex/git/tex/repositories/commands            git/tex/repositories/commands
 #ssh://htpc/data/git/tex/git/tex/repositories/ssh                 git/tex/repositories/ssh
 
-
-# Packages for LaTeX
-ssh://htpc/data/git/tex/packages/packages   packages
-
-#
-# Template for LaTeX
-#
-ssh://htpc/data/git/tex/template   template
 
 # Trading
 ssh://htpc/data/git/tex/trading/trading   trading
