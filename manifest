@@ -13,49 +13,18 @@
 # Have not escaped these dashes in any way.   Might do this at some point.
 #
 
-# All Grain Brewing
-ssh://git@github.com/marcilr/all-grain-brewing   all-grain-brewing
-
-# backup - Script to take datestamped backups.
-ssh://git@github.com/marcilr/backup   backup
-
-#
-# Bind name server
-# https://wiki.archlinux.org/index.php/BIND#BIND_Resources
-#
-ssh://git@github.com/marcilr/bind   bind
-
-#
-# chroot/ - Documentation of chroot environments for dhcp, dns,
-# and apache.
-#
-ssh://git@github.com/marcilr/chroot   chroot
-
-# Create Searchable PDFs
+ssh://git@github.com/marcilr/all-grain-brewing        all-grain-brewing
+ssh://git@github.com/marcilr/backup                   backup
+ssh://git@github.com/marcilr/bind                     bind
+ssh://git@github.com/marcilr/chroot                   chroot
 ssh://git@github.com/marcilr/create-searchable-pdfs   create-searchable-pdfs
+ssh://git@github.com/marcilr/ctan                     ctan
+ssh://git@github.com/marcilr/cvs-branches             cvs-branches
+ssh://git@github.com:marcilr/dev                      dev
+ssh://git@github.com:marcilr/filexfer                 filexfer
+ssh://git@github.com:marcilr/lang                     lang
+ssh://git@github.com:marcilr/latex-examples           latex-examples
 
-#
-# Comprehensive TEX Archive Network
-# http://www.ctan.org/
-#
-ssh://git@github.com/marcilr/ctan   ctan
-
-#
-# Notes on Branches in CVS
-# by James A. Crippen
-# jcrippen@spectrumwireless.com
-#
-ssh://git@github.com/marcilr/cvs-branches   cvs-branches
-
-#
-# Development
-#
-github.com:marcilr/tex-dev   dev
-
-#
-# GCI Network Services, OSS
-#
-ssh://htpc/data/git/tex/gci   gci
 
 #
 # git revision control
@@ -83,16 +52,6 @@ ssh://htpc/data/git/tex/gci   gci
 #ssh://htpc/data/git/tex/git/tex/repositories/ssh                 git/tex/repositories/ssh
 
 
-#
-# Languages
-#
-github.com:marcilr/tex-dev-lang      dev/lang
-github.com:marcilr/tex-dev-lang-go   dev/lang/go
-
-#
-# LaTeX Examples
-#
-github.com:marcilr/latex-examples   latex-examples
 
 #
 # John Lion's
@@ -101,7 +60,8 @@ github.com:marcilr/latex-examples   latex-examples
 # on the USENET alt.folklore.computers newsgroup
 # in May 1994. 
 #
-ssh://htpc/data/git/tex/lions   lions
+#ssh://htpc/data/git/tex/lions   lions
+github.com:marcilr/lions   lions
 
 # Packages for LaTeX
 ssh://htpc/data/git/tex/packages/packages   packages
