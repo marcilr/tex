@@ -14,10 +14,10 @@
 #
 
 # All Grain Brewing
-ssh://htpc/data/git/tex/all-grain-brewing   all-grain-brewing
+ssh://git@github.com/marcilr/all-grain-brewing   all-grain-brewing
 
 # backup - Script to take datestamped backups.
-ssh://htpc/data/git/tex/backup   backup
+ssh://git@github.com/marcilr/backup   backup
 
 #
 # Bind name server
