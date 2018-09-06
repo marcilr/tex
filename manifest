@@ -23,13 +23,13 @@ ssh://htpc/data/git/tex/backup   backup
 # Bind name server
 # https://wiki.archlinux.org/index.php/BIND#BIND_Resources
 #
-ssh://htpc/data/git/tex/bind   bind
+ssh://git@github.com/marcilr/bind   bind
 
 #
 # chroot/ - Documentation of chroot environments for dhcp, dns,
 # and apache.
 #
-ssh://htpc/data/git/tex/chroot   chroot
+ssh://git@github.com/marcilr/chroot   chroot
 
 # Create Searchable PDFs
 ssh://git@github.com/marcilr/create-searchable-pdfs   create-searchable-pdfs
