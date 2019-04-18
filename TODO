@@ -6,6 +6,7 @@ Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
 
 +++ Thu Apr 18 09:02:27 AKDT 2019 - From DNR integrate:
   http://int.dnr.alaska.gov/svntom/trunk/common/docs/JUG/ant/ant.tex
+  http://int.dnr.alaska.gov/svntom/trunk/common/docs/latex-docs/*.pdf
 
 +++ Fri Nov 17 08:53:38 AKST 2017 - Stubbed out repos that need work:
   o all-grain-brewing      - just a stub
