@@ -3,6 +3,10 @@ Created Thu May 26 16:03:16 AKDT 2016
 Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
 
 
+
++++ Thu Apr 18 09:02:27 AKDT 2019 - From DNR integrate:
+  http://int.dnr.alaska.gov/svntom/trunk/common/docs/JUG/ant/ant.tex
+
 +++ Fri Nov 17 08:53:38 AKST 2017 - Stubbed out repos that need work:
   o all-grain-brewing      - just a stub
   o backup                 - need to complete
