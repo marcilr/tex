@@ -118,6 +118,10 @@ project-spec/
 storage-analysis/
   Storage Analysis
 
+svn-to-git-tex/
+  Subversion to git conversion repo
+  git@github.com:marcilr/svn-to-git-tex.git
+
 syntax/
   Syntax for LaTeX
 
