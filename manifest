@@ -27,6 +27,7 @@ ssh://git@github.com/marcilr/lang                     lang
 ssh://git@github.com/marcilr/latex-examples           examples
 ssh://git@github.com/marcilr/lions                    lions
 ssh://git@github.com/marcilr/tex-packages             packages
+ssh://git@github.com/marcilr/svn-to-git-tex           svn-to-git
 ssh://git@github.com/marcilr/tex-template             template
 
 
