@@ -57,4 +57,4 @@ ssh://git@github.com/marcilr/tex-template             template
 
 
 # Trading
-ssh://htpc/data/git/tex/trading/trading   trading
+#ssh://htpc/data/git/tex/trading/trading   trading
