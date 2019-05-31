@@ -65,6 +65,9 @@ include.txt
   I use one or the other?  What are the differences between them?
   Are there more things like them to be aware of?
 
+input-vs-include.txt
+  \input{filename} vs. \include{filename}
+
 latex_tricks/
   LaTeX Tricks
   Some of the decent trick like including program listings,
