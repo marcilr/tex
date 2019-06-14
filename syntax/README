@@ -8,6 +8,12 @@ Filelist
 add-path-to-LaTeX-build.txt
   Add path to LaTeX build
 
+footnote.txt
+  \footnote{footnotes working fine}
+
+  --Footnotes
+    https://www.overleaf.com/learn/latex/Footnotes
+
 input.txt
   The \input is extremely useful for making hierarctical
   latex files.  Component file can be included verbatim
