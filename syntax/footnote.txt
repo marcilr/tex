@@ -1,0 +1,12 @@
+footnote.txt
+Created Fri Jun 14 07:48:36 AKDT 2019
+Copyright (C) 2019 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+\footnote{footnotes working fine}
+
+
+Links
+=====
+Footnotes
+https://www.overleaf.com/learn/latex/Footnotes
