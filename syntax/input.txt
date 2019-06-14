@@ -1,0 +1,53 @@
+input.txt
+Created Fri Jun 14 06:45:48 AKDT 2019
+Copyright (C) 2019 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+\input
+
+
+The \input is extremely useful for making hierarctical
+latex files.  Component file can be included verbatim 
+with the \input tag.  Very useful.
+
+
+how to use \input{file.tex} correctly?
+======================================
+The best thing is probably to leave out the document preamble
+and the \begin{document} and \end{document} from the included
+files and have one master file that sets up the style.
+
+
+Master file:
+
+\documentclass{article}
+% preamble.
+\begin{document}
+    \input{file1}
+    \input{file2}
+\end{document}
+
+
+First included file:
+
+\section{Blah}
+% more stuff.
+
+
+Second included file
+
+\section{More stuff}
+% blah blah
+
+--tex.stackexchange.com/questions/40144/
+  edited Jan 5 '12 at 15:14
+  Joseph Wright
+
+  answered Jan 5 '12 at 15:12
+  user10274
+
+
+Links
+=====
+how to use \input{file.tex} correctly?
+https://tex.stackexchange.com/questions/40144/how-to-use-inputfile-tex-correctly
