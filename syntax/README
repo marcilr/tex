@@ -8,6 +8,14 @@ Filelist
 add-path-to-LaTeX-build.txt
   Add path to LaTeX build
 
+input.txt
+  The \input is extremely useful for making hierarctical
+  latex files.  Component file can be included verbatim
+  with the \input tag.  Very useful.
+
+  --how to use \input{file.tex} correctly?
+    https://tex.stackexchange.com/questions/40144/how-to-use-inputfile-tex-correctly
+
 links.txt
   Syntax related links
 
