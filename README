@@ -68,6 +68,10 @@ filexfer/
   FileXfer - Automated file transfer jobs
   ssh://git@github.com/marcilr/filexfer
 
+foo/
+  Scriptfoo, bashfoo, awkfoo, and hoodoo latex document
+  ssh://git@github.com/marcilr/foo-tex
+
 gci/
   GCI Network Services, OSS
   ssh://htpc/data/git/tex/gci
