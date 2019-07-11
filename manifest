@@ -25,6 +25,7 @@ ssh://git@github.com/marcilr/ctan                     ctan
 ssh://git@github.com/marcilr/cvs-branches             cvs-branches
 ssh://git@github.com/marcilr/dev                      dev
 ssh://git@github.com/marcilr/filexfer                 filexfer
+ssh://git@github.com/marcilr/foo-tex                  foo
 ssh://git@github.com/marcilr/lang                     lang
 ssh://git@github.com/marcilr/latex-examples           examples
 ssh://git@github.com/marcilr/lions                    lions
