@@ -132,6 +132,9 @@ syntax/
 template/
   Template for LaTeX
 
+virtualbox-scripting-tex/
+  VirtualBox Scripting documentation
+
 webdav-exchange/
   WebDAV Access to Exchange
   Whilst this was a good idea, working for UAA ITS
