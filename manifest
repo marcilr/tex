@@ -15,24 +15,25 @@
 # TODO: Would be nice if the rsync app did a check on the 
 #       host to see if accessable before attemping checkout.
 #
-ssh://git@github.com/marcilr/all-grain-brewing        all-grain-brewing
-ssh://git@github.com/marcilr/apache                   apache
-ssh://git@github.com/marcilr/backup                   backup
-ssh://git@github.com/marcilr/bind                     bind
-ssh://git@github.com/marcilr/chroot                   chroot
-ssh://git@github.com/marcilr/create-searchable-pdfs   create-searchable-pdfs
-ssh://git@github.com/marcilr/ctan                     ctan
-ssh://git@github.com/marcilr/cvs-branches             cvs-branches
-ssh://git@github.com/marcilr/dev                      dev
-ssh://git@github.com/marcilr/filexfer                 filexfer
-ssh://git@github.com/marcilr/foo-tex                  foo
-ssh://git@github.com/marcilr/lang                     lang
-ssh://git@github.com/marcilr/latex-examples           examples
-ssh://git@github.com/marcilr/lions                    lions
-ssh://git@github.com/marcilr/tex-packages             packages
-ssh://git@github.com/marcilr/svn-to-git-tex           svn-to-git
-ssh://git@github.com/marcilr/tex-template             template
-ssh://git@github.com/marcilr/virtualbox-tex.git       virtualbox
+ssh://git@github.com/marcilr/all-grain-brewing              all-grain-brewing
+ssh://git@github.com/marcilr/apache                         apache
+ssh://git@github.com/marcilr/backup                         backup
+ssh://git@github.com/marcilr/bind                           bind
+ssh://git@github.com/marcilr/chroot                         chroot
+ssh://git@github.com/marcilr/create-searchable-pdfs         create-searchable-pdfs
+ssh://git@github.com/marcilr/ctan                           ctan
+ssh://git@github.com/marcilr/cvs-branches                   cvs-branches
+ssh://git@github.com/marcilr/dev                            dev
+ssh://git@github.com/marcilr/filexfer                       filexfer
+ssh://git@github.com/marcilr/foo-tex                        foo
+ssh://git@github.com/marcilr/lang                           lang
+ssh://git@github.com/marcilr/latex-examples                 examples
+ssh://git@github.com/marcilr/lions                          lions
+ssh://git@github.com/marcilr/tex-packages                   packages
+ssh://git@github.com/marcilr/svn-to-git-tex                 svn-to-git
+ssh://git@github.com/marcilr/tex-template                   template
+ssh://git@github.com/marcilr/virtualbox-scripting-tex.git   virtualbox-scripting
+ssh://git@github.com/marcilr/virtualbox-tex.git             virtualbox
 
 
 #
