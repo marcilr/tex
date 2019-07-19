@@ -16,6 +16,7 @@
 #       host to see if accessable before attemping checkout.
 #
 ssh://git@github.com/marcilr/all-grain-brewing              all-grain-brewing
+ssh://git@github.com/marcilr/awk-n-sed                      awk-n-sed
 ssh://git@github.com/marcilr/apache                         apache
 ssh://git@github.com/marcilr/backup                         backup
 ssh://git@github.com/marcilr/bind                           bind
