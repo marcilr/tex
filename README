@@ -25,6 +25,10 @@ all-grain-brewing/
   All Grain Brewing
   ssh://git@github.com/marcilr/all-grain-brewing
 
+awstats/
+  AWStats - Advanced Web Statistics
+  https://awstats.sourceforge.io/docs/awstats_setup.html
+
 backup/
   Script to take datestamped backups.
   ssh://git@github.com/marcilr/backup
