@@ -9,6 +9,7 @@
 #
 all-grain-brewing/
 apache/
+awk-n-sed/
 backup/
 bind/
 chroot/
@@ -21,9 +22,11 @@ filexfer/
 foo/
 lang/
 latex-examples/
+latex-to-word/
 lions/
 packages/
 svn-to-git/
 template/
 trading/
 virtualbox/
+virtualbox-scripting/
