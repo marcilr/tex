@@ -1,0 +1,12 @@
+lists.txt
+Created Fri Oct  4 15:23:33 AKDT 2019
+Copyright (C) 2019 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Lists
+
+
+Links
+=====
+LaTeX list - Enumerate and Itemize
+https://www.latex-tutorial.com/tutorials/lists/
