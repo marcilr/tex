@@ -5,4 +5,25 @@
 # Files for git to ignore
 #
 .gitignore
+all-grain-brewing/
+apache/
+awk-n-sed/
 awstats/
+backup/
+bind/
+chroot/
+create-searchable-pdfs/
+ctan/
+cvs-branches/
+dev/
+examples/
+filexfer/
+foo/
+lang/
+latex-to-word/
+lions/
+packages/
+svn-to-git/
+template/
+virtualbox-scripting/
+virtualbox/
