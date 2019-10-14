@@ -12,6 +12,9 @@ Books about TeX and Friends
 Great book references.  Fine list of books by Donald E. Knuth.
 http://www.tug.org/books/
 
+Creating Tables with LaTeX
+http://www1.maths.leeds.ac.uk/LaTeX/TableHelp1.pdf
+
 Latex Basics for Students
 http://www.cs.nyu.edu/~yap/student/LatexBasics.html
 
