@@ -1,0 +1,15 @@
+links.txt
+Created Mon Oct 14 13:51:37 AKDT 2019
+Copyright (C) 2019 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Links for tables
+
+
+Links
+=====
+LATEX Table Tricks
+Adrian P. Robson
+adrian.robson@northumbria.ac.uk
+24th June, 2009
+http://www.tex.uniyar.ac.ru/doc/tableTricks.pdf
