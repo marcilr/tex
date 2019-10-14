@@ -28,6 +28,9 @@ LaTeX Resources
 Has Leslie Lamport's The LaTeX User's guide and Regerence Manual.
 http://math.uci.edu/icamp/computing/latex/
 
+Paragraphs and new lines
+https://www.overleaf.com/learn/latex/Paragraphs_and_new_lines
+
 PDF files are availabl in Postscipt or DVI format.
 http://www.ctan.org/
 
@@ -39,6 +42,9 @@ https://tex.stackexchange.com/questions/91167/why-use-sty-files
 
 Tables
 https://www.overleaf.com/learn/latex/Tables
+
+Use courier font inline on text
+https://tex.stackexchange.com/questions/24840/use-courier-font-inline-on-text
 
 What's the difference: {hsize, linewidth, textwidth, pagewidth}?
 http://stackoverflow.com/questions/3110943/whats-the-difference-hsize-linewidth-textwidth-pagewidth
