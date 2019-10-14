@@ -1,32 +1,8 @@
-# .gitignore
-# Created Thu Sep  6 13:49:08 AKDT 2018
-# by Raymond E. Marcil <rmarcil@gci.com>
+#.gitignore
+# Created Mon Nov 19 09:22:31 AKDT 2018
+# by Raymond E. Marcil <marcilr@gmail.com>
 #
-# Links
-# =====
-# gitignore - Specifies intentionally untracked files to ignore
-# https://git-scm.com/docs/gitignore
+# Files for git to ignore
 #
-all-grain-brewing/
-apache/
-awk-n-sed/
-backup/
-bind/
-chroot/
-create-searchable-pdfs/
-ctan/
-cvs-branches/
-dev/
-examples/
-filexfer/
-foo/
-lang/
-latex-examples/
-latex-to-word/
-lions/
-packages/
-svn-to-git/
-template/
-trading/
-virtualbox/
-virtualbox-scripting/
+.gitignore
+awstats/
