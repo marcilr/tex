@@ -5,7 +5,7 @@ Copyright (C) 2017 by Raymond E. Marcil <marcilr@gmail.com>
 
 Filelist
 ========
-Latex_reference.pdf
+Latex_reference.pdf (600K)
   A Document Preparation System
   User's Guide and Reference Manual
   Leslie Lamport
@@ -14,6 +14,16 @@ Latex_reference.pdf
   Addison-Wesley Publishing Company
   ISBN: 0-201-52983-1
   http://math.uci.edu/icamp/computing/latex/Latex_reference.pdf
+
+lshort.pdf
+  The Not So Short 
+  Introduction to LATEX2e
+  Or LATEX2w in 139 minutes
+  by Tobias Oetiker
+  Hubert Partl, Irene Hyna and Elisabeth Schlegl
+  Version 6.2, February 28, 2018
+  pages: 153
+  http://ctan.mirrors.hoobly.com/info/lshort/english/lshort.pdf
 
 mil.pdf
   Math into LaTeX
