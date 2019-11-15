@@ -15,27 +15,28 @@
 # TODO: Would be nice if the rsync app did a check on the 
 #       host to see if accessable before attemping checkout.
 #
-ssh://git@github.com/marcilr/all-grain-brewing              all-grain-brewing
-ssh://git@github.com/marcilr/awk-n-sed                      awk-n-sed
-ssh://git@github.com/marcilr/apache                         apache
-ssh://git@github.com/marcilr/backup                         backup
-ssh://git@github.com/marcilr/bind                           bind
-ssh://git@github.com/marcilr/chroot                         chroot
-ssh://git@github.com/marcilr/create-searchable-pdfs         create-searchable-pdfs
-ssh://git@github.com/marcilr/ctan                           ctan
-ssh://git@github.com/marcilr/cvs-branches                   cvs-branches
-ssh://git@github.com/marcilr/dev                            dev
-ssh://git@github.com/marcilr/filexfer                       filexfer
-ssh://git@github.com/marcilr/foo-tex                        foo
-ssh://git@github.com/marcilr/lang                           lang
-ssh://git@github.com/marcilr/latex                          latex
-ssh://git@github.com/marcilr/latex-examples                 examples
-ssh://git@github.com/marcilr/latex-to-word                  latex-to-word
-ssh://git@github.com/marcilr/lions                          lions
-ssh://git@github.com/marcilr/svn-to-git-tex                 svn-to-git
-ssh://git@github.com/marcilr/tex-awstats                    awstats
-ssh://git@github.com/marcilr/tex-packages                   packages
-ssh://git@github.com/marcilr/tex-template                   template
+ssh://git@github.com/marcilr/all-grain-brewing.git          all-grain-brewing
+ssh://git@github.com/marcilr/awk-n-sed.git                  awk-n-sed
+ssh://git@github.com/marcilr/apache2.git                    apache2
+ssh://git@github.com/marcilr/backup .git                    backup
+ssh://git@github.com/marcilr/bind.git                       bind
+ssh://git@github.com/marcilr/chroot.git                     chroot
+ssh://git@github.com/marcilr/create-searchable-pdfs.gi      create-searchable-pdfs
+ssh://git@github.com/marcilr/ctan.git                       ctan
+ssh://git@github.com/marcilr/cvs-branches.git               cvs-branches
+ssh://git@github.com/marcilr/dev.git                        dev
+ssh://git@github.com/marcilr/filexfer.git                   filexfer
+ssh://git@github.com/marcilr/foo-tex.git                    foo
+ssh://git@github.com/marcilr/lang.git                       lang
+ssh://git@github.com/marcilr/latex.git                      latex
+ssh://git@github.com/marcilr/latex-examples.git             examples
+ssh://git@github.com/marcilr/latex-to-word.git              latex-to-word
+ssh://git@github.com/marcilr/lions.git                      lions
+ssh://git@github.com/marcilr/resume.git                     resume
+ssh://git@github.com/marcilr/svn-to-git-tex.git             svn-to-git
+ssh://git@github.com/marcilr/tex-awstats.git                awstats
+ssh://git@github.com/marcilr/tex-packages.git               packages
+ssh://git@github.com/marcilr/tex-template.git               template
 ssh://git@github.com/marcilr/virtualbox-scripting-tex.git   virtualbox-scripting
 ssh://git@github.com/marcilr/virtualbox-tex.git             virtualbox
 
@@ -64,7 +65,6 @@ ssh://git@github.com/marcilr/virtualbox-tex.git             virtualbox
 #ssh://htpc/data/git/tex/git/tex/repositories/branching-tagging   git/tex/repositories/branching-tagging
 #ssh://htpc/data/git/tex/git/tex/repositories/commands            git/tex/repositories/commands
 #ssh://htpc/data/git/tex/git/tex/repositories/ssh                 git/tex/repositories/ssh
-
 
 # Trading
 #ssh://htpc/data/git/tex/trading/trading   trading
