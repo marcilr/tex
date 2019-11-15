@@ -6,7 +6,7 @@
 #
 .gitignore
 all-grain-brewing/
-apache/
+apache2/
 awk-n-sed/
 awstats/
 backup/
@@ -25,6 +25,7 @@ latex-to-word/
 lions/
 packages/
 pdf/
+resume/
 svn-to-git/
 template/
 virtualbox-scripting/
