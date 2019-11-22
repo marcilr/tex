@@ -37,6 +37,7 @@ ssh://git@github.com/marcilr/svn-to-git-tex.git             svn-to-git
 ssh://git@github.com/marcilr/tex-awstats.git                awstats
 ssh://git@github.com/marcilr/tex-packages.git               packages
 ssh://git@github.com/marcilr/tex-template.git               template
+ssh://git@github.com/marcilr/tex-to-docx.git                tex-to-docx
 ssh://git@github.com/marcilr/virtualbox-scripting-tex.git   virtualbox-scripting
 ssh://git@github.com/marcilr/virtualbox-tex.git             virtualbox
 
