@@ -35,6 +35,7 @@ ssh://git@github.com/marcilr/lions.git                      lions
 ssh://git@github.com/marcilr/resume.git                     resume
 ssh://git@github.com/marcilr/svn-to-git-tex.git             svn-to-git
 ssh://git@github.com/marcilr/tex-awstats.git                awstats
+ssh://git@github.com/marcilr/tex-oracle.git                 oracle
 ssh://git@github.com/marcilr/tex-packages.git               packages
 ssh://git@github.com/marcilr/tex-template.git               template
 ssh://git@github.com/marcilr/tex-to-docx.git                tex-to-docx
