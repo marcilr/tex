@@ -8,6 +8,12 @@ Tilde
 
 Links
 =====
+How does one insert a backslash or a tilde (~) into LaTeX?
+https://tex.stackexchange.com/questions/9363/how-does-one-insert-a-backslash-or-a-tilde-into-latex
+
+Comprehensive LaTeX Symbol List
+http://mirrors.ctan.org/info/symbols/comprehensive/symbols-a4.pdf
+
 Correctly typesetting a tilde
 Some good choices here
 https://tex.stackexchange.com/questions/312/correctly-typesetting-a-tilde
