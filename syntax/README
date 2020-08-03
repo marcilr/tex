@@ -33,5 +33,10 @@ pagebreak-vs-newpage.txt
   What is the difference between “Page Break” and “New Page”? [duplicate]
   https://tex.stackexchange.com/questions/9852/what-is-the-difference-between-page-break-and-new-page
 
+symbols.txt
+  Symbols 
+  The Comprehensive LaTeX Symbol List
+  http://mirrors.ctan.org/info/symbols/comprehensive/symbols-a4.pdf
+
 syntax.txt
   Syntax for LaTex
