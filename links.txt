@@ -22,6 +22,9 @@ Posted by timothy on Thursday June 24, @02:00PM
 Some good latex templates on this page.
 http://ask.slashdot.org/story/10/06/24/1739247/Best-Way-To-Publish-an-Indie-Research-Paper
 
+Comprehensive LaTeX Symbol List
+http://mirrors.ctan.org/info/symbols/comprehensive/symbols-a4.pdf
+
 Compiling the sample LaTeX document
 http://amath.colorado.edu/documentation/LaTeX/basics/how_sample.html
 
