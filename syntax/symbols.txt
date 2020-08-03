@@ -1,0 +1,13 @@
+symbols.txt
+Created Mon 03 Aug 2020 10:01:46 AM AKDT
+Copyright (C) 2020 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+\ backslash - \textbackslash
+~ tilde     - \textasciitilde
+
+
+Links
+=====
+The Comprehensive LaTeX Symbol List
+http://mirrors.ctan.org/info/symbols/comprehensive/symbols-a4.pdf
