@@ -55,6 +55,9 @@ GrindEQ
 LaTex to docx
 http://www.grindeq.com/
 
+how to get good looking copyright and registered symbols
+https://tex.stackexchange.com/questions/1676/how-to-get-good-looking-copyright-and-registered-symbols
+
 Hypertext marks in LATEX: a manual for hyperref
 Sebastian Rahtz, Heiko Oberdiek
 April 2012
