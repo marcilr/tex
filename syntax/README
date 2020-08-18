@@ -22,6 +22,10 @@ input.txt
   --how to use \input{file.tex} correctly?
     https://tex.stackexchange.com/questions/40144/how-to-use-inputfile-tex-correctly
 
+linking-web-addresses.txt
+  Linking web addresses
+  https://www.overleaf.com/learn/latex/hyperlinks#Linking_web_addresses
+
 links.txt
   Syntax related links
 
