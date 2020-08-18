@@ -33,6 +33,7 @@ ssh://git@github.com/marcilr/latex-examples.git             examples
 ssh://git@github.com/marcilr/latex-to-word.git              latex-to-word
 ssh://git@github.com/marcilr/lions.git                      lions
 ssh://git@github.com/marcilr/resume.git                     resume
+ssh://git@github.com/marcilr/rgtl.git                       rgtl
 ssh://git@github.com/marcilr/svn-to-git-tex.git             svn-to-git
 ssh://git@github.com/marcilr/tex-awstats.git                awstats
 ssh://git@github.com/marcilr/tex-oracle.git                 oracle
