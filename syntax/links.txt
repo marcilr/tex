@@ -17,6 +17,20 @@ http://detexify.kirelabs.org/classify.html
 How does one insert a backslash or a tilde (~) into LaTeX?
 https://tex.stackexchange.com/questions/9363/how-does-one-insert-a-backslash-or-a-tilde-into-latex
 
+Hyperlinks
+o Great inline LaTeX
+o Contents:
+1 Introduction
+2 Styles and colours
+3 Linking web addresses
+4 Linking local files
+5 Inserting links manually
+6 PDF-specific options
+7 Reference guide
+8 Further reading
+Sweet!
+https://www.overleaf.com/learn/latex/hyperlinks#Linking_web_addresses
+
 Text alignment
 1 Introduction
 2 Using the package ragged2e
