@@ -1,0 +1,26 @@
+TODO
+Created Tue 18 Aug 2020 10:25:12 AM AKDT
+Copyright (C) 2020 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+TODO items for latex syntax
+
+
++++ Tue 18 Aug 2020 10:25:32 AM AKDT - Add \FIXME syntax:
+\FIXME{Need data here...
+
++++ Tue 18 Aug 2020 10:25:32 AM AKDT - Add footnote syntax.
+FIXME: Need example here.
+
+
++++ Tue 18 Aug 2020 10:25:32 AM AKDT - Add itemize syntax:
+\begin{itemize}
+  \item I. Setup: Installation and configuration
+  \item II. Process logs: Building/updating statistics database
+  \item III. Run Reports: Building and reading reports
+\end{itemize}
+
++++ Tue 18 Aug 2020 10:25:32 AM AKDT - Add href syntax:
+''There are 3 steps to begin using AWStats:\footnote{AWStats Installation, Configuration and Reporting\\
+\href{https://awstats.sourceforge.io/docs/awstats_setup.html}{https://awstats.sourceforge.io}
+}
