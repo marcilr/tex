@@ -8,6 +8,12 @@ Syntax related links
 
 Links
 =====
+Detexify
+Draw in box with cursor to get LaTeX syntax.
+Drew a backslash to get \backslash syntax.
+Very, very clever.
+http://detexify.kirelabs.org/classify.html
+
 How does one insert a backslash or a tilde (~) into LaTeX?
 https://tex.stackexchange.com/questions/9363/how-does-one-insert-a-backslash-or-a-tilde-into-latex
 
