@@ -1,0 +1,17 @@
+superscript.txt
+Created Tue 18 Aug 2020 10:36:08 AM AKDT
+Copyright (C) 2020 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Superscript
+
+
+"To get exp to appear as a superscript, you type ^{exp} . 
+LaTeX handles superscripted superscripts and all of that 
+stuff in the natural way."
+
+
+Links
+=====
+LaTeX help 1.1 - Subscripts & Superscripts
+http://www.emerson.emory.edu/services/latex/latex_117.html#:~:text=To%20get%20an%20expression%20exp,stuff%20in%20the%20natural%20way.
