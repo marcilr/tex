@@ -1,0 +1,37 @@
+linking-web-addresses.txt
+Created Tue 18 Aug 2020 11:34:45 AM AKDT
+Copyright (C) 2020 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+"Linking web addresses
+
+
+Links to a web address or email can added to a LATEX file using 
+the \url command to display the actual link or \href to use a 
+\hidden link and show a word/sentence instead.
+
+For further references see \href{http://www.sharelatex.com}{Something Linky} 
+or go to the next url: \url{http://www.sharelatex.com}
+HyperrefEx3.png
+
+There are two commands in the example that generate a link in 
+the final document:
+
+\href{http://www.sharelatex.com}{Something Linky}
+
+There are two parameters passed to this command, the first one 
+is the url to the link, http://www.sharelatex.com in this case, 
+and the second one is the clickable text to be shown, 
+Something Linky.
+
+\url{http://www.sharelatex.com}
+
+This command will show the url passed as parameter and make it 
+into a link, useful if you will print the document."
+--https://www.overleaf.com/learn/latex/hyperlinks#Linking_web_addresses
+
+
+Links
+=====
+Linking web addresses
+https://www.overleaf.com/learn/latex/hyperlinks#Linking_web_addresses
