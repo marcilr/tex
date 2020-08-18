@@ -1,0 +1,17 @@
+subscript.txt
+Created Tue 18 Aug 2020 10:36:08 AM AKDT
+Copyright (C) 2020 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Subscript
+
+"To get an expression exp to appear as a subscript, 
+you just type _{exp} ."
+--LaTeX help 1.1 - Subscripts & Superscripts
+  http://www.emerson.emory.edu/services/latex/latex_117.html#:~:text=To%20get%20an%20expression%20exp,stuff%20in%20the%20natural%20way.
+
+
+Links
+=====
+LaTeX help 1.1 - Subscripts & Superscripts
+http://www.emerson.emory.edu/services/latex/latex_117.html#:~:text=To%20get%20an%20expression%20exp,stuff%20in%20the%20natural%20way.
