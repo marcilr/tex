@@ -33,6 +33,13 @@ pagebreak-vs-newpage.txt
   What is the difference between “Page Break” and “New Page”? [duplicate]
   https://tex.stackexchange.com/questions/9852/what-is-the-difference-between-page-break-and-new-page
 
+subscript.txt
+  Subscript
+  "To get an expression exp to appear as a subscript,
+  you just type _{exp} ."
+  --LaTeX help 1.1 - Subscripts & Superscripts
+    http://www.emerson.emory.edu/services/latex/latex_117.html#:~:text=To%20get%20an%20expression%20exp,stuff%20in%20the%20natural%20way.
+
 superscript.txt
   Superscript
   "To get exp to appear as a superscript, you type ^{exp} .
