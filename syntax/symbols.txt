@@ -9,5 +9,8 @@ Copyright (C) 2020 by Raymond E. Marcil <marcilr@gmail.com>
 
 Links
 =====
+LaTeX/Special Characters
+https://en.wikibooks.org/wiki/LaTeX/Special_Characters
+
 The Comprehensive LaTeX Symbol List
 http://mirrors.ctan.org/info/symbols/comprehensive/symbols-a4.pdf
