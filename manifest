@@ -18,7 +18,7 @@
 ssh://git@github.com/marcilr/all-grain-brewing.git          all-grain-brewing
 ssh://git@github.com/marcilr/awk-n-sed.git                  awk-n-sed
 ssh://git@github.com/marcilr/apache2.git                    apache2
-ssh://git@github.com/marcilr/backup .git                    backup
+ssh://git@github.com/marcilr/backup.git                     backup
 ssh://git@github.com/marcilr/bind.git                       bind
 ssh://git@github.com/marcilr/chroot.git                     chroot
 ssh://git@github.com/marcilr/create-searchable-pdfs.gi      create-searchable-pdfs
