@@ -1,0 +1,11 @@
+fillable-pdf-software.txt
+Created Tue 28 Dec 2021 12:05:20 PM AKST
+Copyright (C) 2021 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Fillable PDF software to save populated pdf form
+
+
+Need to track down Debian Linux software for populating 
+and saving pdf forms.
+
