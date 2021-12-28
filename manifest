@@ -25,6 +25,7 @@ ssh://git@github.com/marcilr/create-searchable-pdfs.gi      create-searchable-pd
 ssh://git@github.com/marcilr/ctan.git                       ctan
 ssh://git@github.com/marcilr/cvs-branches.git               cvs-branches
 ssh://git@github.com/marcilr/dev.git                        dev
+ssh://git@github.com/marcilr/faceting.git                   faceting
 ssh://git@github.com/marcilr/filexfer.git                   filexfer
 ssh://git@github.com/marcilr/foo-tex.git                    foo
 ssh://git@github.com/marcilr/lang.git                       lang
