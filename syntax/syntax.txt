@@ -4,3 +4,6 @@ Copyright (C) 2017 by Raymond E. Marcil <marcilr@gmail.com>
 
 
 Syntax for LaTeX
+
+
+Colon (Math mode): $\colon$
