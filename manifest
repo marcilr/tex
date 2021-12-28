@@ -21,7 +21,7 @@ ssh://git@github.com/marcilr/apache2.git                    apache2
 ssh://git@github.com/marcilr/backup.git                     backup
 ssh://git@github.com/marcilr/bind.git                       bind
 ssh://git@github.com/marcilr/chroot.git                     chroot
-ssh://git@github.com/marcilr/create-searchable-pdfs.gi      create-searchable-pdfs
+ssh://git@github.com/marcilr/create-searchable-pdfs.git     create-searchable-pdfs
 ssh://git@github.com/marcilr/ctan.git                       ctan
 ssh://git@github.com/marcilr/cvs-branches.git               cvs-branches
 ssh://git@github.com/marcilr/dev.git                        dev
