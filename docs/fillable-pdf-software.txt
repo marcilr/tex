@@ -9,3 +9,36 @@ Fillable PDF software to save populated pdf form
 Need to track down Debian Linux software for populating 
 and saving pdf forms.
 
+
+google: save pdf forms under linu
+
+
+Links
+=====
+Is there software that can fill PDF forms? - Ask Ubuntu
+"Document Viewer (Evince) SHOULD be able to fill in forms, 
+IF the document is a fillable form. Not all documents are 
+fillable! If document does not support form filling the form, 
+you should use tools like PDFedit or OpenOffice Draw"
+...
+'Evince 3.18.2 let me very easily put text into a form on a 
+US tax document and save it. Opening the file in xpdf, I can 
+see the edits. Not sure if it's filling the forms the "right way", 
+but the spacing and font look great in this limited test. – 
+Colin Mar 29 '16 at 22:50'
+...
+'update. "Master PDF Editor 3" enables pdf form fields to be 
+entered by the user. It works well to fill forms, remove/add 
+pages, reorder, add comments, etc. It should be listed in 
+ubuntu software centre, else search for the deb file online.
+answered Dec 1 '15 at 3:50, rob grune'
+...
+Also: Master PDF Editor 3 and Master PDF Editor 5.
+...
+
+What program will save a fillable PDF? - Unix & Linux Stack ...
+https://unix.stackexchange.com/questions/34482/what-program-will-save-a-fillable-pdf
+
+When I open with /usr/bin/evince, About, top upper left icon says
+Document Viewer 3.30.2, 1996–2017 The Evince authors.
+https://askubuntu.com/questions/29230/is-there-software-that-can-fill-pdf-forms
