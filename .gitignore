@@ -17,6 +17,7 @@ ctan/
 cvs-branches/
 dev/
 examples/
+faceting/
 filexfer/
 foo/
 lang/
@@ -25,6 +26,7 @@ latex-to-word/
 lions/
 oracle/
 packages/
+pandoc/
 pdf/
 resume/
 rgtl/
