@@ -1,0 +1,190 @@
+master-pdf-editor-for-linux.txt
+Created Tue 28 Dec 2021 03:55:32 PM AKST
+Copyright (C) 2021 by Raymond E. Marcil <marcilr@gmail.com>
+
+
+Master PDF Editor for Linux
+Edit PDF documents.
+The best solution for working with PDF files in Linux.
+https://code-industry.net/free-pdf-editor/#get
+
+
+How to start editing PDF files
+
+o Open a file in Master PDF Editor.
+o Click on the Edit Document tool in the toolbar or in the Tools menu.
+o Click the object (e.g. text or image) you want to modify.
+o Its properties will be shown in the Object Inspector.
+o You can delete move and resize objects.
+o Use the menu items Insert -> Text, Image, etc. and Forms -> Link, 
+  Text Field, Button, etc. to add new objects to the document.
+o Choose Document -> OCR, Header and Footer, Page layout, Watermark, etc. 
+  for advanced document editing.
+
+
+Tue 28 Dec 2021 04:07:36 PM AKST
+================================
+Downloaded and installed the free version of Master PDF Editor for Linux
+
+
+1. Open Master PDF Editor for Linux website in Chrome:
+
+Master PDF Editor for Linux
+Edit PDF documents.
+The best solution for working with PDF files in Linux.
+https://code-industry.net/free-pdf-editor/#get
+
+click Download
+
+2. At Download Master PDF Editor for Linux Now:
+...
+Debian 8 - 11 / Ubuntu 14.x - 21.x
+master-pdf-editor-5.8.20-qt5_included.x86_64.deb   <=== Most compatible looking version
+===> master-pdf-editor-5.8.20-qt5_included.x86_64.deb (26.3MB)
+https://code-industry.net/free-pdf-editor/#get
+...
+
+click Download Master PDF Editor for Ubuntu
+
+Watch deb download:
+  master-pdf-editor-5.8.20-qt5_included.x86_64.deb (26.3MB)
+
+
+Install Master PDF Editor for Linux
+===================================
+Install the Master PDF Editor for Linux deb file:
+$ cd ~/Downloads/
+$ sudo dpkg -i master-pdf-editor-5.8.20-qt5_included.x86_64.deb
+[sudo] password for marcilr: ***
+Selecting previously unselected package master-pdf-editor.
+(Reading database ... 384211 files and directories currently installed.)
+Preparing to unpack master-pdf-editor-5.8.20-qt5_included.x86_64.deb ...
+Unpacking master-pdf-editor (5.8.20) ...
+Setting up master-pdf-editor (5.8.20) ...
+Processing triggers for desktop-file-utils (0.23-4) ...
+Processing triggers for mime-support (3.62) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+$
+
+Wow, that installed way to easily :-----)
+
+
+Run Master PDF Editor for Linux
+===============================
+click XFCE mouse on upper left of top toolbar
+click Graphics > Master PDF Editor 5
+
+This does open a window with:
+  Master PDF Editor (NOT REGISTERED)
+
+Check Master PDF Editor version:
+click Help > About
+
+Displays:
+Master PDF Editor
+Build 5.8.20, 64 bit
+
+Built with
+GCC: 5.3.1
+GLIBC: 2.17
+Qt: 5.9.5
+SANE: 1.0.25
+
+https://code-indeustry.net
+Copyright (C) 2021 - Code Industry Ltd. All rights reserved
+
+Looks great!
+
+
+Open pdf file for editing
+=========================
+In running Master PDF Editor
+click File > Open (ctrl-o)
+
+At Open file open the Alaska Motor Vehicle Crash Form 12-209, REF #100156826
+click Home > git > vehicle-crash-report > pdf > 100156826.pdf
+click Open
+
+
+Fill out the pdf
+================
+With the Alaska Motor Vehicle Crash Form 12-209, REF #100156826
+form open populate the form.
+
+
+
+What is new in Master PDF Editor 5
+==================================
+The unregistered version can be used only in personal, noncommercial purposes 
+to view documents, fill PDF forms, comment and print documents.  In order to 
+use the application for commercial purposes, and with its full functionality 
+you are required to purchase a license.
+
+The above is good. I can legitimatedly use Master PDF Editor 5.
+
+
+Functionality comparison of the unregistered and commercial versions:
+====================================================================
+
+Function	                                           Unregistered version   Commercial version
+----------------------------------------------------------------------------------------------------
+Create new PDF document from scanner or existing file(s)              +                  +
+Fill PDF forms                                                        +                  +
+Add and/or edit bookmarks in PDF files                                +                  +
+Comment and annotate PDF documents                                    +                  +
+Split and merge PDF documents                                         +                  +
+Edit PDF text and images, Create PDF Form                             -                  +
+Optimize PDFs                                                         -                  +
+"Paste to Multiple Pages" function                                    -                  +
+Add/Edit Document Actions                                             -                  +
+Manage Document JavaScript                                            -                  +
+Page Properties options                                               -                  +
+Sign PDF document with digital signature                              -                  +
+Add Headers and Footers to PDFs                                       -                  +
+Add Watermarks to PDFs                                                -                  +
+Add Backgrounds to PDFs                                               -                  +
+256 bit AES encryption                                                -                  +
+
+
+Full Master PDF Editor integration with Linux.
+==============================================
+Master PDF Editor has been developed from the ground up with Linux system
+features in mind.  It is fully integrated with the Linux system with no
+need for any special packages.
+
+--Master PDF Editor for Linux ($69.95 USD)
+Edit PDF documents.
+The best solution for working with PDF files in Linux.
+https://code-industry.net/free-pdf-editor/#get
+
+
+Links
+=====
+Download Master PDF Editor for Linux Now
+https://code-industry.net/get-master-pdf-editor-for-ubuntu/?download
+
+How to install Master PDF Editor on Ubuntu 20.04 LTS
+Heyan Maurya / Last Updated: April 22, 2021 / UBUNTU / NO COMMENTS
+Run with: masterl
+https://www.how2shout.com/linux/how-to-install-master-pdf-editor-on-ubuntu-20-04-lts/
+
+Requirements: Qt 5.95 or later:
+master-pdf-editor-5.8.20-qt5.x86_64.tar.gz
+
+Debian 8 - 11 / Ubuntu 14.x - 21.x:
+master-pdf-editor-5.8.20-qt5_included.x86_64.deb
+
+Debian 9 - 11 / Ubuntu 18.x - 21.x:
+master-pdf-editor-5.8.20-qt5.x86_64.deb
+
+openSUSE 15.x / CentOS/RedHat 7x -8.x:
+master-pdf-editor-5.8.20-qt5.x86_64.rpm
+https://code-industry.net/free-pdf-editor/#get
+
+Master PDF Editor for Linux
+Edit PDF documents.
+The best solution for working with PDF files in Linux.
+Master PDF Editor is the optimal solution for editing PDF files in Linux.
+It enables you to create, edit, view, encrypt, sign and print interactive PDF documents.
+https://code-industry.net/free-pdf-editor/
+
