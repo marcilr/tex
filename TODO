@@ -3,6 +3,10 @@ Created Thu May 26 16:03:16 AKDT 2016
 Copyright (C) 2016 by Raymond E. Marcil <marcilr@gmail.com>
 
 
++++ Wed 09 Mar 2022 09:01:56 PM AKST - Create nginx configuration and usage 
+  LaTeX document.
+  
+  See: git/net/nginx/TODO
 
 +++ Thu Apr 18 09:02:27 AKDT 2019 - From DNR integrate:
   http://int.dnr.alaska.gov/svntom/trunk/common/docs/JUG/ant/ant.tex
