@@ -80,6 +80,9 @@ gci/
   GCI Network Services, OSS
   ssh://htpc/data/git/tex/gci
 
+index.html
+  tex base page
+
 latex/
   LaTeX is a high-quality typesetting system; it
   includes features designed for the production of
