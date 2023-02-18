@@ -81,6 +81,7 @@ Asked 8 years, 7 months ago, Modified 2 years, 7 months ago, Viewed 3k times<br>
 It would be great if the Filelist table was programatically generated
 with Created and Last Updated dates for each file.
 
+<!--- =============== PRINT ALL COMMIT DATES ======================== --->
 <p style="width:50%; margin-top:0.5cm;">
 To print all commit dates in a git directory:
 
@@ -91,6 +92,69 @@ To print all commit dates in a git directory:
 &nbsp;$ git log --reverse --format=fuller | grep CommitDate
 </code>
 </pre>
+
+
+<!--- =============== PRINT 1ST COMMIT DATE ======================== --->
+<p style="width:50%; margin-top:1cm;">
+To print only the 1st commit date in a git directory:
+
+<p style="width:50%; margin-top:0.5cm;">
+<pre style="width:50%">
+&nbsp;
+&nbsp;<code>$ cd &lt;git directory&gt;
+&nbsp;$ git log --reverse --format=fuller | grep CommitDate | head -1
+&nbsp;CommitDate: Mon Jun 15 17:06:53 2015 +0000
+&nbsp;$
+</code>
+</pre>
+
+
+<!--- =============== USE CUT TO PRINT 1ST COMMIT DATE ======================== --->
+<p style="width:50%; margin-top:1cm;">
+Use cut to print only the 1st commit date in a git directory:
+
+<p style="width:50%; margin-top:0.5cm;">
+<pre style="width:50%">
+&nbsp;
+&nbsp;<code>$ cd &lt;git directory&gt;
+&nbsp;$ git log --reverse --format=fuller | grep CommitDate | head -1 | cut -b 13-36
+&nbsp;Mon Jun 15 17:06:53 2015
+&nbsp;$
+</code>
+</pre>
+
+
+<!--- =============== PRINT LAST COMMIT DATE ======================== --->
+<p style="width:50%; margin-top:1cm;">
+To print only the last commit date in a git directory:
+
+<p style="width:50%; margin-top:0.5cm;">
+<pre style="width:50%">
+&nbsp;
+&nbsp;<code>$ cd &lt;git directory&gt;
+&nbsp;$ git log --reverse --format=fuller | grep CommitDate | tail -1
+&nbsp;CommitDate: Sat Feb 18 10:23:10 2023 -0900
+&nbsp;$
+</code>
+</pre>
+
+
+<!--- =============== USE CUT TO PRINT LAST COMMIT DATE ======================== --->
+<p style="width:50%; margin-top:1cm;">
+Use cut to print only the last commit date in a git directory:
+
+<p style="width:50%; margin-top:0.5cm;">
+<pre style="width:50%">
+&nbsp;
+&nbsp;<code>$ cd &lt;git directory&gt;
+&nbsp;$ git log --reverse --format=fuller | grep CommitDate | tail -1 | cut -b 13-36
+&nbsp;Sat Feb 18 10:23:10 2023
+&nbsp;$
+</code>
+</pre>
+
+
+
 
 
 
