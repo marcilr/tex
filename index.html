@@ -144,14 +144,40 @@ the net repo:<br>
 </ul>
 --->
 
+<!--- ================ Sat 18 Feb 2023 10:13:12 AM AKST ============= --->
+<!--- ================ Sat 18 Feb 2023 10:13:12 AM AKST ============= --->
+<h2 style="margin-top:1cm;">Sat 18 Feb 2023 10:13:12 AM AKST</h2>
+It would be great if the Filelist table was programatically generated
+with Created and Last Updated dates for each file.
+
+<p style="width:50%; margin-top:0.5cm;">
+To print all commit dates in a git directory:
+
+<p style="width:50%; margin-top:0.5cm;">
+<pre style="width:50%">
+&nbsp;
+&nbsp;<code>$ cd &lt;git directory&gt;
+&nbsp;$ git log --reverse --format=fuller | grep CommitDate
+</code>
+</pre>
+
+
+
 <!--- =============================== FILELIST ======================== --->
 <!--- =============================== FILELIST ======================== --->
 <!--- =============================== FILELIST ======================== --->
 <h2 style="margin-top:1cm;">Filelist</h2>
 
+
 <!--- ======================= DOCUMENT SUBDIRECTORIES ================= --->
-<!--- ================== ===== DOCUMENT SUBDIRECTORIES ================= ---> 
-<p style="width:50%; margin-top:1cm;">
+<p style="width:50%; margin-top:0.5cm;">
+<pre style="width:50%">
+&nbsp;
+&nbsp;<code>git log --reverse --format=fuller</code>
+&nbsp;
+</pre>
+<!--- ======================= DOCUMENT SUBDIRECTORIES ================= ---> 
+<p style="width:50%; margin-top:0.5cm;">
 <table>
 
 <!--- ======================= DIRECTORY =============================== --->
@@ -175,8 +201,8 @@ the net repo:<br>
 <!--- ======================= 00INSTALL ============================== --->
 <tr>
   <td><a href="00INSTALL/">00INSTALL/</a></td>
-  <td style="padding-left:50px;text-align:left;"><a href="00INSTALL/INSTALL">INSTALL</a></td>
   <td style="padding-left:50px;text-align:left;">n/a</td>
+  <td style="padding-left:50px;text-align:left;"><a href="00INSTALL/INSTALL">INSTALL</a></td>
   <td style="padding-left:50px;text-align:left;">Installation of Latex on Debian jessie 8.8 amd64</td>
 </tr>
 
